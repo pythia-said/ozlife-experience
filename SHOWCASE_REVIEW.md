@@ -1,25 +1,57 @@
 # Showcase review
 
-This file is a pre-merge checklist for the repository owner. It records the intended public scope of the showcase foundation.
+This file is the owner’s pre-merge review for the visual and editorial showcase update.
 
-## Files created
+## Files created or updated
+
+### Created
+
+- `docs/demo-video-plan.md`
+
+### Updated
+
+- `README.md`
+- `assets/brand/README.md`
+- `assets/screenshots/README.md`
+- `SHOWCASE_REVIEW.md`
+
+### Reviewed and unchanged
 
 - `NOTICE.md`
 - `SECURITY.md`
 - `CONTRIBUTING.md`
-- `SHOWCASE_REVIEW.md`
 - `docs/product-vision.md`
 - `docs/features.md`
 - `docs/architecture.md`
 - `docs/privacy-and-safety.md`
 - `docs/roadmap.md`
-- `assets/brand/README.md`
-- `assets/screenshots/README.md`
 - `assets/diagrams/README.md`
+- `LICENSE`
 
-The existing `README.md` has been replaced with the full product showcase. The existing `LICENSE` has not been edited.
+## Visual assets added
 
-## Media still required
+None. The repository contained no approved image, video, PDF, or other binary media files to use.
+
+The updated README uses typographic hierarchy, structured tables, concise story cards, and an image-safe narrative sequence. It does not fabricate product screens or reference missing files.
+
+## Binary files reviewed or transformed
+
+No binary files were present in the repository workspace. Consequently:
+
+- No binaries were visually inspected.
+- No crops, resizes, recompressions, format conversions, or metadata changes were performed.
+- No derivative exports were created.
+- No original media was overwritten.
+
+## Missing visuals still needed
+
+### Brand
+
+- `assets/brand/app-icon-approved.png`
+- `assets/brand/hero-approved.png`
+- Optional `assets/brand/social-preview-approved.png`
+
+### Screenshots
 
 - `assets/screenshots/01-daily-hub.png`
 - `assets/screenshots/02-daily-focus.png`
@@ -27,11 +59,39 @@ The existing `README.md` has been replaced with the full product showcase. The e
 - `assets/screenshots/04-mind-games.png`
 - `assets/screenshots/05-energy-review.png`
 - `assets/screenshots/06-garage.png`
-- An owner-approved repository avatar or app icon
-- An owner-approved hero image, if one is desired
-- Optional owner-approved social preview artwork
 
-All media remains subject to the rights, provenance, consent, privacy, metadata, localization, and presentation checks in the [brand guide](assets/brand/README.md) and [screenshot guide](assets/screenshots/README.md).
+### Future video
+
+- Approved product capture material
+- An approved closing brand frame
+- An approved static poster frame
+- Optional rights-cleared audio
+- The final optimized demo export
+
+The [brand guide](assets/brand/README.md), [screenshot guide](assets/screenshots/README.md), and [demo video plan](docs/demo-video-plan.md) define the preparation and review requirements.
+
+## Assets intentionally excluded
+
+- No asset was excluded from this repository because no binary media was present.
+- No assets were retrieved from private repositories or outside sources.
+- No generated or fabricated product screenshots were created.
+- Any future media with uncertain ownership, consent, provenance, privacy, or redistribution rights must remain excluded.
+
+## Privacy review
+
+- The README contains no image references and therefore cannot expose personal content through missing or unreviewed media.
+- All future screenshots and video captures must use empty or synthetic personal data.
+- Diary, voice, health, notification, account, device, and other personal information must remain absent.
+- Optional health and biometric integrations remain described as user-controlled.
+- Wellness language remains general and makes no medical efficacy claim.
+- Sensitive security details must not be published in GitHub Issues.
+
+## Rights review
+
+- No third-party or private media was added.
+- No new copyright, performer, voice, likeness, music, font, or trademark dependency was introduced.
+- Future visual assets require ownership, licence, provenance, consent, and redistribution review.
+- Approved public derivatives should be used instead of original asset catalogues or working files.
 
 ## Suggested GitHub topics
 
@@ -49,46 +109,43 @@ All media remains subject to the rights, provenance, consent, privacy, metadata,
 
 > Public product showcase for OZLife — small daily routines for Body, Mind & Energy.
 
-## Intentionally not published
+## Information intentionally not published
 
 - Production source code, code excerpts, pseudocode, and private repository access
-- Internal repository structures, source file names, architecture wiring, and implementation details
-- Secrets, keys, tokens, certificates, provisioning profiles, signing identities, and team identifiers
-- Application, purchase, entitlement, bundle, or internal configuration identifiers
+- Internal repository structures, implementation details, and source file names
+- Secrets, credentials, certificates, signing data, team identifiers, and configuration identifiers
+- Application, bundle, purchase, entitlement, or other internal identifiers
 - Internal URLs, infrastructure, administrative contacts, and operational email addresses
-- Branch names, commit history, pull-request details, debug controls, test bypasses, and private QA information
-- Complete data models, persistence keys, database structures, migrations, and repository interfaces
-- Raw localization catalogues, complete datasets, proprietary program definitions, and full exercise scripts
-- Real diary, health, voice, feedback, notification, diagnostic, account, or device data
-- Real personal identities, biographies, voice credits, and likenesses without explicit consent
-- Store submission material, unresolved launch blockers, sandbox details, and operational release procedures
-- Original visual or audio assets pending ownership and redistribution review
-- Claims of medical efficacy, guaranteed outcomes, App Store availability, or completed release validation
+- Debug controls, developer menus, diagnostics, test states, and private quality-assurance material
+- Complete data models, persistence details, datasets, localization catalogues, and proprietary program content
+- Real diary, health, voice, feedback, notification, account, device, or other personal data
+- Unapproved visual or audio material
+- Claims of medical efficacy, App Store availability, completed release testing, or guaranteed outcomes
 - Non-public handoff material from the source brief
 
 ## Confirmations
 
-- [x] This showcase contains no production application source code.
-- [x] No pseudocode has been added.
-- [x] No assets were copied from another repository.
-- [x] No real personal, diary, health, or voice data has been included.
-- [x] The architecture description is intentionally abstract.
-- [x] The production source code is clearly described as private.
-- [x] The general-wellness notice avoids medical claims.
-- [x] The product status is stated as “in active pre-release development.”
+- [x] No production application source code or pseudocode was published.
+- [x] No private repository content was accessed or copied.
+- [x] No binary assets were added or transformed because none were available.
+- [x] No product screenshots or interface states were fabricated.
+- [x] No real personal, diary, health, voice, notification, account, or device data was included.
+- [x] No secret, internal identifier, infrastructure detail, or operational contact was added.
+- [x] The architecture documentation remains intentionally abstract.
+- [x] The production source remains clearly described as private.
+- [x] The product remains described as “in active pre-release development.”
 - [x] No App Store availability or completed release testing is claimed.
+- [x] The wellness notice avoids medical claims.
+- [x] The README contains no broken image references.
 - [x] The existing `LICENSE` remains unchanged.
-- [x] The main README does not reference missing images.
 
 ## Owner review before merge
 
-- [ ] Confirm all product descriptions remain accurate and publicly suitable.
+- [ ] Confirm the revised product tone and feature emphasis.
 - [ ] Confirm the copyright holder name and year.
 - [ ] Review the suggested repository description and topics before applying them.
-- [ ] Decide whether this review file should remain on the default branch after merge.
-- [ ] Review the wording with the appropriate legal and privacy advisers.
-- [ ] Confirm any future screenshots use synthetic data and approved product states.
-- [ ] Complete rights, provenance, consent, and redistribution checks for every future media file.
-- [ ] Confirm future screenshot dimensions and device framing against the approved presentation standard.
-- [ ] Verify that GitHub Issues are enabled for the repository.
-- [ ] Perform a final public-view review of all rendered Markdown and the Mermaid diagram.
+- [ ] Review wording with the appropriate legal and privacy advisers.
+- [ ] Confirm GitHub Issues are enabled for the repository.
+- [ ] Decide whether `SHOWCASE_REVIEW.md` should remain after merge.
+- [ ] Provide only publication-approved visual exports for a future media update.
+- [ ] Re-run privacy, rights, metadata, link, and rendered-layout review after adding any media.
