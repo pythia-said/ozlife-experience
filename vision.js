@@ -587,7 +587,7 @@
           <p class="footer-legal">${c.legal}</p>
         </div>
         <nav class="footer-links" aria-label="OZLife">
-          <a href="../../docs/privacy-and-safety.md">${c.privacy}</a>
+          <a href="../privacy/">${c.privacy}</a>
           <a href="../../docs/architecture.md">${c.architecture}</a>
           <a href="../../LICENSE">${c.license}</a>
         </nav>

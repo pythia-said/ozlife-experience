@@ -57,4 +57,32 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/vision/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/vision/"/>
   </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/de/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/privacy/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/privacy/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/privacy/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/it/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/privacy/"/>
+  </url>
 </urlset>
