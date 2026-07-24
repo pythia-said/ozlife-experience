@@ -846,7 +846,7 @@
         <nav class="footer-links" aria-label="OZLife">
           <a href="./privacy/">${c.privacy}</a>
           <a href="./architecture/">${c.architecture}</a>
-          <a href="../LICENSE">${c.license}</a>
+          <a href="./license/">${c.license}</a>
         </nav>
       </div>
     </footer>

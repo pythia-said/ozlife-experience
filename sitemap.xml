@@ -113,4 +113,60 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/architecture/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/architecture/"/>
   </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/de/license/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/license/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/license/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/license/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/license/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/en/license/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/license/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/license/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/license/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/license/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/es/license/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/license/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/license/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/license/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/license/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/it/license/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/license/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/license/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/license/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/license/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/de/security/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/security/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/en/security/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/security/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/es/security/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/security/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/it/security/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/security/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/security/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/security/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/security/"/>
+  </url>
 </urlset>
