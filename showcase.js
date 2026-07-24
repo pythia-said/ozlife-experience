@@ -114,6 +114,7 @@
       worldIntro:
         "Der Daily Hub verbindet den Tag. Bibliothek und Garage bewahren, was dir wichtig ist, und machen deine Entwicklung greifbar.",
       zoom: "Bild vergrößern",
+      featureDetails: "Mehr erfahren",
       world: [
         {
           title: "Daily Hub",
@@ -267,6 +268,7 @@
       worldIntro:
         "The Daily Hub connects the day. The Library and Garage preserve what matters and make your evolving journey tangible.",
       zoom: "Enlarge image",
+      featureDetails: "View details",
       world: [
         {
           title: "Daily Hub",
@@ -419,6 +421,7 @@
       worldIntro:
         "El Daily Hub conecta el día. La Biblioteca y el Garaje guardan lo importante y hacen tangible tu recorrido.",
       zoom: "Ampliar imagen",
+      featureDetails: "Ver detalles",
       world: [
         {
           title: "Daily Hub",
@@ -571,6 +574,7 @@
       worldIntro:
         "Il Daily Hub collega la giornata. La Libreria e il Garage conservano ciò che conta e rendono tangibile il tuo percorso.",
       zoom: "Ingrandisci immagine",
+      featureDetails: "Scopri di più",
       world: [
         {
           title: "Daily Hub",
@@ -643,7 +647,11 @@
     <header class="site-header" data-header>
       <div class="nav-wrap">
         <a class="brand" href="#top" aria-label="OZLife">
-          <img src="../assets/brand/app-icon-approved.png" alt="" width="38" height="38">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-node brand-node-mind"></span>
+            <span class="brand-node brand-node-body"></span>
+            <span class="brand-node brand-node-energy"></span>
+          </span>
           <span>OZLife</span>
         </a>
         <button class="menu-toggle" type="button" aria-label="${c.menu}" aria-expanded="false" data-menu-toggle>
@@ -747,9 +755,15 @@
                   <p class="feature-label">${feature.label}</p>
                   <h3>${feature.title}</h3>
                   <p class="feature-description">${feature.description}</p>
-                  <ul class="feature-list">
+                  <ul class="feature-list feature-list-desktop">
                     ${feature.bullets.map((bullet) => `<li>${bullet}</li>`).join("")}
                   </ul>
+                  <details class="feature-details">
+                    <summary>${c.featureDetails}</summary>
+                    <ul class="feature-list">
+                      ${feature.bullets.map((bullet) => `<li>${bullet}</li>`).join("")}
+                    </ul>
+                  </details>
                 </div>
               </article>`,
             )
@@ -795,7 +809,6 @@
         </div>
         <div class="principles reveal">
           <div class="principle-lead">
-            <span class="mark" aria-hidden="true">“</span>
             <blockquote>${c.quote}</blockquote>
           </div>
           <div class="principle-column">
