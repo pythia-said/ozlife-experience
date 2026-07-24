@@ -54,7 +54,7 @@
       rhythmEyebrow: "Ein Tag mit OZLife",
       rhythmTitle: "Ein einfacher Rhythmus, zu dem du zurückkehren kannst.",
       rhythmIntro:
-        "Kein Alles-oder-nichts-Plan. OZLife verbindet vier kleine Schritte zu einer Routine, die in den Tag passt.",
+        "Kein Alles-oder-nichts-Plan. OZLife verbindet Fokus, kleine Handlungen, Reflexion und sichtbaren Fortschritt zu einem Rhythmus, der in den Tag passt.",
       steps: [
         {
           title: "Fokus wählen",
@@ -207,7 +207,7 @@
       rhythmEyebrow: "One day with OZLife",
       rhythmTitle: "A simple rhythm you can return to.",
       rhythmIntro:
-        "No all-or-nothing plan. OZLife connects four small steps into a routine that fits the day in front of you.",
+        "No all-or-nothing plan. OZLife connects focus, small actions, reflection, and visible progress into a rhythm that fits the day in front of you.",
       steps: [
         {
           title: "Choose a focus",
@@ -359,7 +359,7 @@
       rhythmEyebrow: "Un día con OZLife",
       rhythmTitle: "Un ritmo sencillo al que volver.",
       rhythmIntro:
-        "Sin planes de todo o nada. OZLife conecta cuatro pasos pequeños en una rutina que encaja en el día que tienes delante.",
+        "Sin planes de todo o nada. OZLife conecta el foco, pequeñas acciones, la reflexión y el progreso visible en un ritmo que encaja en el día que tienes delante.",
       steps: [
         {
           title: "Elegir un enfoque",
@@ -511,7 +511,7 @@
       rhythmEyebrow: "Un giorno con OZLife",
       rhythmTitle: "Un ritmo semplice a cui tornare.",
       rhythmIntro:
-        "Nessun piano tutto o niente. OZLife collega quattro piccoli passi in una routine che si adatta alla giornata.",
+        "Nessun piano tutto o niente. OZLife collega focus, piccole azioni, riflessione e progressi visibili in un ritmo che si adatta alla giornata.",
       steps: [
         {
           title: "Scegli un obiettivo",
