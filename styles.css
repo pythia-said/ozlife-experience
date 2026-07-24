@@ -2345,6 +2345,626 @@ summary {
   width: 100%;
 }
 
+.architecture-hero {
+  display: grid;
+  min-height: min(860px, calc(100vh - 76px));
+  grid-template-columns: minmax(0, 1.04fr) minmax(410px, 0.8fr);
+  align-items: center;
+  gap: clamp(52px, 8vw, 116px);
+  padding-block: 82px 104px;
+}
+
+.architecture-hero h1,
+.architecture-section h2,
+.architecture-boundaries h2,
+.architecture-closing h2 {
+  margin: 0;
+  font-weight: 820;
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+
+.architecture-hero h1 {
+  max-width: 850px;
+  font-size: clamp(3.25rem, 6.6vw, 6.15rem);
+  line-height: 0.99;
+}
+
+.architecture-hero h1 span {
+  background: linear-gradient(100deg, var(--mind), var(--body) 52%, var(--gold));
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.architecture-hero-intro {
+  max-width: 665px;
+  margin: 28px 0 0;
+  color: var(--ink-soft);
+  font-size: clamp(1.05rem, 1.7vw, 1.22rem);
+  line-height: 1.7;
+}
+
+.architecture-console {
+  position: relative;
+  overflow: hidden;
+  min-height: 620px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 50% 37%, rgba(168, 149, 255, 0.13), transparent 32%),
+    radial-gradient(circle at 74% 82%, rgba(87, 223, 189, 0.09), transparent 34%),
+    #091220;
+  box-shadow: var(--shadow);
+}
+
+.architecture-console::before {
+  position: absolute;
+  inset: 54px 0 45px;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: radial-gradient(circle at 50% 45%, black, transparent 74%);
+  content: "";
+}
+
+.architecture-console-bar {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  min-height: 55px;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.architecture-console-bar > span {
+  display: flex;
+  gap: 6px;
+}
+
+.architecture-console-bar i {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.architecture-console-bar i:nth-child(1) {
+  background: var(--mind);
+}
+
+.architecture-console-bar i:nth-child(2) {
+  background: var(--body);
+}
+
+.architecture-console-bar i:nth-child(3) {
+  background: var(--energy);
+}
+
+.architecture-console-bar strong,
+.architecture-console-bar em {
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-style: normal;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-console-bar em {
+  justify-self: end;
+  color: var(--gold);
+}
+
+.architecture-console-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 510px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.architecture-visual-node {
+  display: flex;
+  width: min(100%, 330px);
+  min-height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 17px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 740;
+}
+
+.architecture-visual-node i {
+  width: 8px;
+  height: 8px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+}
+
+.architecture-visual-optional i {
+  background: var(--gold);
+  box-shadow: 0 0 18px rgba(239, 203, 119, 0.7);
+}
+
+.architecture-visual-local i {
+  background: var(--body);
+  box-shadow: 0 0 18px rgba(87, 223, 189, 0.7);
+}
+
+.architecture-visual-line {
+  width: 1px;
+  height: 38px;
+  background: linear-gradient(var(--line), rgba(168, 149, 255, 0.7), var(--line));
+}
+
+.architecture-visual-core {
+  width: min(100%, 370px);
+  padding: 35px 28px;
+  border: 1px solid rgba(168, 149, 255, 0.38);
+  border-radius: 25px;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(168, 149, 255, 0.18), transparent 34%),
+    rgba(7, 12, 23, 0.92);
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.36),
+    inset 0 0 60px rgba(168, 149, 255, 0.04);
+  text-align: center;
+}
+
+.architecture-visual-core > span {
+  color: var(--mind);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.architecture-visual-core h2 {
+  margin: 12px 0 6px;
+  font-size: clamp(1.75rem, 3vw, 2.55rem);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.architecture-visual-core p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.architecture-console-status {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  padding: 0 20px;
+  border-top: 1px solid var(--line);
+  background: rgba(4, 8, 15, 0.68);
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 760;
+  letter-spacing: 0.06em;
+}
+
+.architecture-console-status i {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--body);
+  box-shadow: 0 0 12px rgba(87, 223, 189, 0.8);
+}
+
+.architecture-section {
+  padding-block: clamp(96px, 13vw, 164px);
+}
+
+.architecture-section .section-heading h2 {
+  max-width: 790px;
+}
+
+.architecture-foundations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.architecture-foundation {
+  --architecture-accent: var(--mind);
+  --architecture-glow: rgba(168, 149, 255, 0.13);
+  display: flex;
+  min-height: 460px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(circle at 88% 7%, var(--architecture-glow), transparent 32%),
+    rgba(255, 255, 255, 0.025);
+  transition:
+    border-color 220ms ease,
+    transform 220ms ease;
+}
+
+.architecture-foundation:hover {
+  border-color: color-mix(in srgb, var(--architecture-accent), transparent 58%);
+  transform: translateY(-4px);
+}
+
+.architecture-foundation-local {
+  --architecture-accent: var(--body);
+  --architecture-glow: rgba(87, 223, 189, 0.12);
+}
+
+.architecture-foundation-optional {
+  --architecture-accent: var(--gold);
+  --architecture-glow: rgba(239, 203, 119, 0.11);
+}
+
+.architecture-foundation-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+}
+
+.architecture-foundation-top i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--architecture-accent);
+  box-shadow: 0 0 24px var(--architecture-accent);
+}
+
+.architecture-foundation div > p:first-child {
+  margin: 0 0 14px;
+  color: var(--architecture-accent);
+  font-size: 0.71rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-foundation h3 {
+  margin: 0;
+  font-size: clamp(2rem, 3.3vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  text-wrap: balance;
+}
+
+.architecture-foundation div > p:last-child {
+  margin: 20px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}
+
+.architecture-map {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(38px, 7vw, 76px);
+  border: 1px solid var(--line);
+  border-radius: 42px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(168, 149, 255, 0.13), transparent 30%),
+    radial-gradient(circle at 12% 85%, rgba(87, 223, 189, 0.08), transparent 34%),
+    var(--panel-solid);
+}
+
+.architecture-map::before {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+  content: "";
+}
+
+.architecture-map-core,
+.architecture-map-group,
+.architecture-map-connector,
+.architecture-map-note {
+  position: relative;
+  z-index: 1;
+}
+
+.architecture-map-core {
+  width: min(100%, 430px);
+  margin-inline: auto;
+  padding: 32px;
+  border: 1px solid rgba(168, 149, 255, 0.35);
+  border-radius: 24px;
+  background: rgba(8, 14, 25, 0.94);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.32);
+  text-align: center;
+}
+
+.architecture-map-core span,
+.architecture-map-group > p {
+  color: var(--mind);
+  font-size: 0.69rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-map-core h3 {
+  margin: 9px 0 5px;
+  font-size: clamp(2.15rem, 4vw, 3.45rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.architecture-map-core p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.architecture-map-connector {
+  width: 1px;
+  height: 56px;
+  margin-inline: auto;
+  background: linear-gradient(var(--mind), var(--line));
+}
+
+.architecture-map-connector::after {
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--mind);
+  box-shadow: 0 0 15px rgba(168, 149, 255, 0.7);
+  content: "";
+}
+
+.architecture-map-group > p {
+  margin: 0 0 18px;
+  color: var(--gold);
+  text-align: center;
+}
+
+.architecture-modules {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.architecture-modules article {
+  min-height: 132px;
+  padding: 19px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.027);
+}
+
+.architecture-modules article:first-child {
+  border-color: rgba(239, 203, 119, 0.25);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(239, 203, 119, 0.1), transparent 40%),
+    rgba(255, 255, 255, 0.027);
+}
+
+.architecture-modules article > span {
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.11em;
+}
+
+.architecture-modules h3 {
+  margin: 28px 0 3px;
+  font-size: 1.15rem;
+  letter-spacing: -0.03em;
+}
+
+.architecture-modules p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.architecture-map-foundations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.architecture-map-foundations article {
+  display: grid;
+  min-height: 118px;
+  grid-template-columns: 14px 1fr;
+  align-items: center;
+  gap: 17px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 19px;
+  background: rgba(255, 255, 255, 0.027);
+}
+
+.architecture-map-foundations article > span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--body);
+  box-shadow: 0 0 20px rgba(87, 223, 189, 0.7);
+}
+
+.architecture-map-foundations article:last-child > span {
+  background: var(--gold);
+  box-shadow: 0 0 20px rgba(239, 203, 119, 0.7);
+}
+
+.architecture-map-foundations h3 {
+  margin: 0 0 4px;
+  font-size: 1.08rem;
+  letter-spacing: -0.025em;
+}
+
+.architecture-map-foundations p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.architecture-map-note {
+  max-width: 780px;
+  margin: 40px auto 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.architecture-boundaries {
+  display: grid;
+  min-height: 680px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 0.8fr);
+  align-items: center;
+  gap: clamp(54px, 9vw, 130px);
+  padding: clamp(48px, 8vw, 96px);
+  border: 1px solid var(--line);
+  border-radius: 42px;
+  background:
+    radial-gradient(circle at 7% 90%, rgba(255, 155, 112, 0.09), transparent 34%),
+    radial-gradient(circle at 90% 7%, rgba(168, 149, 255, 0.09), transparent 32%),
+    var(--panel-solid);
+}
+
+.architecture-boundaries h2 {
+  max-width: 760px;
+  font-size: clamp(2.75rem, 5.5vw, 5rem);
+  line-height: 1.02;
+}
+
+.architecture-boundary-copy > p:last-child {
+  max-width: 650px;
+  margin: 28px 0 0;
+  color: var(--ink-soft);
+  font-size: 1.01rem;
+}
+
+.architecture-boundary-lists {
+  display: grid;
+  gap: 14px;
+}
+
+.architecture-boundary-lists article {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.026);
+}
+
+.architecture-boundary-lists article > p {
+  margin: 0 0 18px;
+  color: var(--body);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-boundary-lists article:last-child > p {
+  color: var(--energy);
+}
+
+.architecture-boundary-lists ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.architecture-boundary-lists li {
+  position: relative;
+  padding-left: 22px;
+  color: var(--ink-soft);
+  font-size: 0.83rem;
+}
+
+.architecture-boundary-lists li::before {
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--body);
+  border-radius: 50%;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.architecture-private-list li::before {
+  border-color: var(--energy);
+  border-radius: 2px;
+}
+
+.architecture-closing {
+  position: relative;
+  overflow: hidden;
+  margin-block: 40px 90px;
+  padding: clamp(62px, 10vw, 126px);
+  border: 1px solid var(--line);
+  border-radius: 44px;
+  background:
+    radial-gradient(circle at 84% 12%, rgba(87, 223, 189, 0.14), transparent 30%),
+    radial-gradient(circle at 10% 100%, rgba(168, 149, 255, 0.14), transparent 38%),
+    #0b1423;
+  text-align: center;
+}
+
+.architecture-closing .eyebrow {
+  justify-content: center;
+}
+
+.architecture-closing h2 {
+  max-width: 970px;
+  margin-inline: auto;
+  font-size: clamp(2.8rem, 6.1vw, 5.5rem);
+  line-height: 1.01;
+}
+
+.architecture-closing > p:not(.eyebrow) {
+  max-width: 720px;
+  margin: 28px auto 34px;
+  color: var(--ink-soft);
+  font-size: 1.04rem;
+}
+
+.architecture-closing .hero-actions {
+  justify-content: center;
+  margin-top: 0;
+}
+
 .media-dialog {
   width: min(92vw, 560px);
   max-height: 92vh;
@@ -2587,6 +3207,31 @@ summary {
 
   .privacy-report .hero-actions {
     width: min(100%, 360px);
+  }
+
+  .architecture-hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    padding-top: 72px;
+  }
+
+  .architecture-hero-copy {
+    max-width: 850px;
+  }
+
+  .architecture-console {
+    width: min(100%, 650px);
+    margin-inline: auto;
+  }
+
+  .architecture-foundation {
+    min-height: 420px;
+    padding: 28px;
+  }
+
+  .architecture-boundaries {
+    grid-template-columns: 1fr;
+    align-items: start;
   }
 }
 
@@ -3165,6 +3810,70 @@ summary {
     padding: 52px 28px;
     border-radius: 30px;
   }
+
+  .architecture-hero {
+    padding-block: 52px 72px;
+  }
+
+  .architecture-hero h1 {
+    font-size: clamp(3.05rem, 14.5vw, 4.8rem);
+  }
+
+  .architecture-console {
+    min-height: 560px;
+    border-radius: 28px;
+  }
+
+  .architecture-console-body {
+    min-height: 450px;
+    padding: 30px 22px;
+  }
+
+  .architecture-visual-core {
+    padding: 30px 22px;
+  }
+
+  .architecture-section {
+    padding-block: 82px;
+  }
+
+  .architecture-foundations {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-foundation {
+    min-height: 370px;
+    padding: 30px;
+  }
+
+  .architecture-map {
+    padding: 32px 20px;
+    border-radius: 30px;
+  }
+
+  .architecture-modules {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .architecture-map-foundations {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-boundaries {
+    min-height: auto;
+    padding: 44px 28px;
+    border-radius: 30px;
+  }
+
+  .architecture-boundary-lists article {
+    padding: 24px;
+  }
+
+  .architecture-closing {
+    margin-bottom: 60px;
+    padding: 66px 24px;
+    border-radius: 30px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -3240,6 +3949,23 @@ summary {
     grid-template-columns: 48px 1fr;
     gap: 17px;
     padding-inline: 22px;
+  }
+
+  .architecture-console-bar strong {
+    display: none;
+  }
+
+  .architecture-console-bar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .architecture-modules article {
+    min-height: 120px;
+    padding: 16px;
+  }
+
+  .architecture-modules h3 {
+    margin-top: 22px;
   }
 
   .vision-rhythm-steps li > span {

@@ -588,7 +588,7 @@
         </div>
         <nav class="footer-links" aria-label="OZLife">
           <a href="../privacy/">${c.privacy}</a>
-          <a href="../../docs/architecture.md">${c.architecture}</a>
+          <a href="../architecture/">${c.architecture}</a>
           <a href="../../LICENSE">${c.license}</a>
         </nav>
       </div>

@@ -2,6 +2,8 @@
 
 [Back to the showcase](../README.md)
 
+[Open the visual architecture overview](https://pythia-said.github.io/ozlife-experience/en/architecture/)
+
 ## Public technical overview
 
 OZLife is a native iOS application written in **Swift** and **SwiftUI**. Selected platform-specific interactions may use native iOS bridges where needed.
