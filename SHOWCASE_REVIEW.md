@@ -29,9 +29,49 @@ This file records the approved public-media import for `pythia-said/ozlife-exper
 
 ## README and documentation changes
 
-- Reworked `README.md` into a visual GitHub product landing page with the approved icon, hero, three product pillars, daily flow, full screenshot gallery, and GIF-linked MP4 teaser.
+- Refined `README.md` into a calmer, more focused GitHub product landing page while preserving the approved icon, hero, authentic captures, and GIF-linked MP4 teaser.
 - Preserved the proprietary-source status and active pre-release positioning. The README does not claim App Store availability or a final build.
 - Updated `assets/brand/README.md` and `assets/screenshots/README.md`, and added `assets/video/README.md`, with dimensions, uses, alt text, and provenance for each file.
+
+### Final-polish changes
+
+- Preserved the hero and concise emotional product explanation.
+- Replaced the cramped three-column Mind · Body · Energy presentation with three readable, vertically stacked product moments.
+- Removed the repeated six-image screenshot story and reduced the supporting gallery to two previously unfeatured captures.
+- Made One day with OZLife a compact, text-led sequence supported only by the Daily Hub.
+- Moved See OZLife in motion directly after the daily rhythm and increased the inline GIF preview width from 260 to 520 pixels.
+- Reduced Product highlights from eleven items to six concise categories, with detailed coverage remaining in `docs/features.md`.
+- Added Follow the journey as a calm closing moment before the proprietary and contact sections.
+- Tightened Built for iOS, Product status, and Privacy and wellness without removing trust, medical, pre-release, or proprietary statements.
+
+### Presentation-image refinement
+
+- Added six landscape presentation derivatives under `assets/presentation/`, all at 1600 × 1000 pixels.
+- Replaced direct portrait screenshot embeds in Mind, Body, Energy, One day with OZLife, and Inside the experience.
+- Made every presentation image clickable, linking to its corresponding complete screenshot in `assets/screenshots/`.
+- Kept the teaser section and its 520-pixel inline preview unchanged.
+- Used only deterministic crops and compositions from the approved public screenshots; no UI, controls, copy, or product state was generated or invented.
+
+| Presentation file | Read-only source | README section |
+| --- | --- | --- |
+| `assets/presentation/daily-flow-feature.png` | `assets/screenshots/01-daily-hub.png` | One day with OZLife |
+| `assets/presentation/focus-feature.png` | `assets/screenshots/02-daily-focus.png` | Inside the experience |
+| `assets/presentation/body-feature.png` | `assets/screenshots/03-guided-body.png` | Body |
+| `assets/presentation/mind-feature.png` | `assets/screenshots/04-mind-games.png` | Mind |
+| `assets/presentation/energy-feature.png` | `assets/screenshots/05-energy-review.png` | Energy |
+| `assets/presentation/garage-feature.png` | `assets/screenshots/06-garage.png` | Inside the experience |
+
+## Final screenshot usage map
+
+| Presentation asset | Primary README role | Full screenshot link target |
+| --- | --- | --- |
+| `assets/presentation/daily-flow-feature.png` | One day with OZLife | `assets/screenshots/01-daily-hub.png` |
+| `assets/presentation/focus-feature.png` | Inside the experience | `assets/screenshots/02-daily-focus.png` |
+| `assets/presentation/body-feature.png` | Body | `assets/screenshots/03-guided-body.png` |
+| `assets/presentation/mind-feature.png` | Mind | `assets/screenshots/04-mind-games.png` |
+| `assets/presentation/energy-feature.png` | Energy | `assets/screenshots/05-energy-review.png` |
+| `assets/presentation/garage-feature.png` | Inside the experience | `assets/screenshots/06-garage.png` |
+| `assets/video/ozlife-teaser.gif` | See OZLife in motion, displayed at 520 px | `assets/video/ozlife-teaser.mp4` |
 
 ## Privacy and rights review
 
@@ -52,6 +92,15 @@ The social-preview image is included but repository settings were not changed. T
 
 **Settings → General → Social preview → Upload `assets/brand/social-preview.png`**
 
+The approved social-preview binary was not changed by the final-polish work, and this document does not claim that the repository setting was updated.
+
+## Manual review recommendations
+
+- Review the final README on GitHub in both light and dark themes.
+- Check the landscape presentation images on a narrow mobile viewport.
+- Confirm the final public wording and visual pacing before merge.
+- Upload `assets/brand/social-preview.png` manually if the GitHub repository setting has not already been configured.
+
 ## Confirmations
 
 - [x] Every imported file was listed in `.showcase-import/MANIFEST.md`.
@@ -59,5 +108,8 @@ The social-preview image is included but repository settings were not changed. T
 - [x] No source code, configuration, project material, or private metadata was imported.
 - [x] No `.DS_Store` files are included.
 - [x] `.showcase-import/` was not modified.
+- [x] No approved image, GIF, MP4, or other binary asset was modified, renamed, regenerated, resized, recompressed, or replaced during final polish.
+- [x] All six original screenshots remained byte-identical while new presentation derivatives were created.
+- [x] No source code was added.
 - [x] `LICENSE` was not changed.
 - [x] The production source remains private and the product remains described as pre-release.
