@@ -661,7 +661,7 @@ summary {
 }
 
 .section {
-  padding-block: clamp(72px, 7vw, 104px);
+  padding-block: clamp(32px, 2.5vw, 40px);
 }
 
 .section-heading {
@@ -669,7 +669,7 @@ summary {
   grid-template-columns: minmax(0, 0.85fr) minmax(280px, 0.58fr);
   align-items: end;
   gap: clamp(36px, 5vw, 70px);
-  margin-bottom: clamp(40px, 4vw, 56px);
+  margin-bottom: clamp(28px, 2.5vw, 36px);
 }
 
 .section-heading h2 {
@@ -1132,11 +1132,11 @@ summary {
 
 .vision-hero {
   display: grid;
-  min-height: min(840px, calc(100vh - 76px));
+  min-height: auto;
   grid-template-columns: minmax(0, 1.04fr) minmax(380px, 0.76fr);
   align-items: center;
   gap: clamp(48px, 8vw, 116px);
-  padding-block: 82px 104px;
+  padding-block: 52px 20px;
 }
 
 .vision-back-link {
@@ -1313,7 +1313,11 @@ summary {
 }
 
 .vision-section {
-  padding-block: clamp(96px, 13vw, 164px);
+  padding-block: clamp(32px, 2.5vw, 40px);
+}
+
+.vision-section#idea {
+  padding-top: 24px;
 }
 
 .vision-editorial {
@@ -1658,8 +1662,8 @@ summary {
 .vision-promise {
   position: relative;
   overflow: hidden;
-  margin-block: 40px 90px;
-  padding: clamp(62px, 10vw, 126px);
+  margin-block: 24px 56px;
+  padding: clamp(52px, 7vw, 88px);
   border: 1px solid var(--line);
   border-radius: 44px;
   background:
@@ -1694,11 +1698,11 @@ summary {
 
 .privacy-hero {
   display: grid;
-  min-height: min(850px, calc(100vh - 76px));
+  min-height: auto;
   grid-template-columns: minmax(0, 1.05fr) minmax(390px, 0.75fr);
   align-items: center;
   gap: clamp(52px, 8vw, 120px);
-  padding-block: 82px 104px;
+  padding-block: 52px 20px;
 }
 
 .privacy-hero h1,
@@ -1874,7 +1878,11 @@ summary {
 }
 
 .privacy-section {
-  padding-block: clamp(96px, 13vw, 164px);
+  padding-block: clamp(32px, 2.5vw, 40px);
+}
+
+.privacy-section#principles {
+  padding-top: 24px;
 }
 
 .privacy-principles {
@@ -2240,10 +2248,10 @@ summary {
 
 .privacy-boundaries {
   display: grid;
-  min-height: 620px;
+  min-height: auto;
   grid-template-columns: minmax(0, 1fr) minmax(350px, 0.75fr);
   gap: clamp(54px, 8vw, 120px);
-  padding: clamp(48px, 8vw, 96px);
+  padding: clamp(44px, 5vw, 64px);
   border: 1px solid var(--line);
   border-radius: 42px;
   background:
@@ -2309,8 +2317,8 @@ summary {
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
   gap: 70px;
-  margin-block: 40px 90px;
-  padding: clamp(52px, 8vw, 92px);
+  margin-block: 24px 56px;
+  padding: clamp(48px, 6vw, 72px);
   border: 1px solid rgba(255, 155, 112, 0.22);
   border-radius: 40px;
   background:
@@ -3651,7 +3659,7 @@ summary {
   }
 
   .vision-hero {
-    padding-block: 52px 72px;
+    padding-block: 40px 20px;
   }
 
   .vision-back-link {
@@ -3686,7 +3694,11 @@ summary {
   }
 
   .vision-section {
-    padding-block: 82px;
+    padding-block: 32px;
+  }
+
+  .vision-section#idea {
+    padding-top: 24px;
   }
 
   .vision-editorial {
@@ -3733,13 +3745,13 @@ summary {
   }
 
   .vision-promise {
-    margin-bottom: 60px;
-    padding: 66px 24px;
+    margin-block: 24px 40px;
+    padding: 48px 24px;
     border-radius: 30px;
   }
 
   .privacy-hero {
-    padding-block: 52px 72px;
+    padding-block: 40px 20px;
   }
 
   .privacy-hero h1 {
@@ -3759,7 +3771,11 @@ summary {
   }
 
   .privacy-section {
-    padding-block: 82px;
+    padding-block: 32px;
+  }
+
+  .privacy-section#principles {
+    padding-top: 24px;
   }
 
   .privacy-principles {
@@ -3810,8 +3826,8 @@ summary {
   }
 
   .privacy-report {
-    margin-bottom: 60px;
-    padding: 52px 28px;
+    margin-block: 24px 40px;
+    padding: 44px 28px;
     border-radius: 30px;
   }
 
