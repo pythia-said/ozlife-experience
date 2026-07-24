@@ -681,7 +681,7 @@
           <p>${c.reportText}</p>
         </div>
         <div class="hero-actions">
-          <a class="button button-primary" href="../../SECURITY.md">${c.security}</a>
+          <a class="button button-primary" href="../security/">${c.security}</a>
           <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience/issues">${c.issues}</a>
         </div>
       </section>
@@ -697,7 +697,7 @@
         <nav class="footer-links" aria-label="OZLife">
           <a href="../vision/">${c.vision}</a>
           <a href="../architecture/">${c.architecture}</a>
-          <a href="../../LICENSE">${c.license}</a>
+          <a href="../license/">${c.license}</a>
         </nav>
       </div>
     </footer>
