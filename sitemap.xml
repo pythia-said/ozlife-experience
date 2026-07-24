@@ -29,4 +29,32 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/"/>
   </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/de/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/vision/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/vision/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/vision/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/vision/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/en/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/vision/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/vision/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/vision/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/vision/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/es/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/vision/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/vision/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/vision/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/vision/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/it/vision/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/vision/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/vision/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/vision/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/vision/"/>
+  </url>
 </urlset>

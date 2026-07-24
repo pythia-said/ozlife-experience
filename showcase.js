@@ -817,7 +817,7 @@
         <h2>${c.close}</h2>
         <p>${c.closeText}</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="../docs/product-vision.md">${c.vision}</a>
+          <a class="button button-primary" href="./vision/">${c.vision}</a>
           <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience">${c.follow}</a>
         </div>
       </section>
