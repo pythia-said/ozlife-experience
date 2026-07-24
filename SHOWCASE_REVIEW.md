@@ -1,151 +1,63 @@
 # Showcase review
 
-This file is the owner’s pre-merge review for the visual and editorial showcase update.
+This file records the approved public-media import for `pythia-said/ozlife-experience`.
 
-## Files created or updated
+## Source and validation
 
-### Created
+- Exact source package used: `.showcase-import/`
+- Review inputs: `.showcase-import/MANIFEST.md` and `.showcase-import/PUBLICATION-REVIEW.md`
+- The two review documents agree: all ten imported media files are listed in the manifest and explicitly approved in the publication review.
+- Every expected file exists. Image dimensions match the review; MP4 and GIF containers were opened successfully.
+- The package contains only the two review documents and the ten approved media files. It contains no source code, project files, configuration files, raw asset catalogues, private metadata, or `.DS_Store` files.
+- `.showcase-import/` was read only and was not modified.
 
-- `docs/demo-video-plan.md`
+## Imported files
 
-### Updated
+| Destination | Dimensions | Type and intended use |
+| --- | --- | --- |
+| `assets/brand/app-icon-approved.png` | 1024 × 1024 | Authentic icon export; README masthead |
+| `assets/brand/hero-approved.png` | 2400 × 1200 | Derived composition; README hero |
+| `assets/brand/social-preview.png` | 1280 × 640 | Derived composition; manual GitHub social preview |
+| `assets/screenshots/01-daily-hub.png` | 1290 × 2796 | Authentic capture; Daily Hub |
+| `assets/screenshots/02-daily-focus.png` | 1290 × 2796 | Authentic capture; focus ritual |
+| `assets/screenshots/03-guided-body.png` | 1290 × 2796 | Authentic capture; guided Body session |
+| `assets/screenshots/04-mind-games.png` | 1290 × 2796 | Authentic capture; Mind Games |
+| `assets/screenshots/05-energy-review.png` | 1290 × 2796 | Authentic capture; weekly Energy Review |
+| `assets/screenshots/06-garage.png` | 1290 × 2796 | Authentic capture; Garage progress |
+| `assets/video/ozlife-teaser.mp4` | 1080 × 1920 | H.264, 21 s, 559,236 bytes; silent main teaser |
+| `assets/video/ozlife-teaser.gif` | 360 × 640 | GIF, 8 s, 163,566 bytes; inline teaser preview |
 
-- `README.md`
-- `assets/brand/README.md`
-- `assets/screenshots/README.md`
-- `SHOWCASE_REVIEW.md`
+## README and documentation changes
 
-### Reviewed and unchanged
+- Reworked `README.md` into a visual GitHub product landing page with the approved icon, hero, three product pillars, daily flow, full screenshot gallery, and GIF-linked MP4 teaser.
+- Preserved the proprietary-source status and active pre-release positioning. The README does not claim App Store availability or a final build.
+- Updated `assets/brand/README.md` and `assets/screenshots/README.md`, and added `assets/video/README.md`, with dimensions, uses, alt text, and provenance for each file.
 
-- `NOTICE.md`
-- `SECURITY.md`
-- `CONTRIBUTING.md`
-- `docs/product-vision.md`
-- `docs/features.md`
-- `docs/architecture.md`
-- `docs/privacy-and-safety.md`
-- `docs/roadmap.md`
-- `assets/diagrams/README.md`
-- `LICENSE`
+## Privacy and rights review
 
-## Visual assets added
+- All six screenshots are authentic English app captures exported as publication-safe derivatives. Status bars and lower developer-control zones were excluded.
+- The visible progress and states are synthetic; no personal data, debug UI, internal data, third-party footage, or music was imported.
+- The icon and all app visuals are app-owned. The reviewed video contains only the approved screenshots and app icon.
+- All imported files were listed in `MANIFEST.md` and approved in `PUBLICATION-REVIEW.md`.
 
-None. The repository contained no approved image, video, PDF, or other binary media files to use.
+## Intentionally excluded
 
-The updated README uses typographic hierarchy, structured tables, concise story cards, and an image-safe narrative sequence. It does not fabricate product screens or reference missing files.
+- `MANIFEST.md` and `PUBLICATION-REVIEW.md` were used for review only and were not copied into public asset folders.
+- No private app source, project files, raw asset catalogues, configuration, internal documentation, metadata, or unapproved media was imported.
+- No other files were present in the approved package.
 
-## Binary files reviewed or transformed
+## Manual GitHub social preview
 
-No binary files were present in the repository workspace. Consequently:
+The social-preview image is included but repository settings were not changed. To apply it manually in GitHub:
 
-- No binaries were visually inspected.
-- No crops, resizes, recompressions, format conversions, or metadata changes were performed.
-- No derivative exports were created.
-- No original media was overwritten.
-
-## Missing visuals still needed
-
-### Brand
-
-- `assets/brand/app-icon-approved.png`
-- `assets/brand/hero-approved.png`
-- Optional `assets/brand/social-preview-approved.png`
-
-### Screenshots
-
-- `assets/screenshots/01-daily-hub.png`
-- `assets/screenshots/02-daily-focus.png`
-- `assets/screenshots/03-guided-body.png`
-- `assets/screenshots/04-mind-games.png`
-- `assets/screenshots/05-energy-review.png`
-- `assets/screenshots/06-garage.png`
-
-### Future video
-
-- Approved product capture material
-- An approved closing brand frame
-- An approved static poster frame
-- Optional rights-cleared audio
-- The final optimized demo export
-
-The [brand guide](assets/brand/README.md), [screenshot guide](assets/screenshots/README.md), and [demo video plan](docs/demo-video-plan.md) define the preparation and review requirements.
-
-## Assets intentionally excluded
-
-- No asset was excluded from this repository because no binary media was present.
-- No assets were retrieved from private repositories or outside sources.
-- No generated or fabricated product screenshots were created.
-- Any future media with uncertain ownership, consent, provenance, privacy, or redistribution rights must remain excluded.
-
-## Privacy review
-
-- The README contains no image references and therefore cannot expose personal content through missing or unreviewed media.
-- All future screenshots and video captures must use empty or synthetic personal data.
-- Diary, voice, health, notification, account, device, and other personal information must remain absent.
-- Optional health and biometric integrations remain described as user-controlled.
-- Wellness language remains general and makes no medical efficacy claim.
-- Sensitive security details must not be published in GitHub Issues.
-
-## Rights review
-
-- No third-party or private media was added.
-- No new copyright, performer, voice, likeness, music, font, or trademark dependency was introduced.
-- Future visual assets require ownership, licence, provenance, consent, and redistribution review.
-- Approved public derivatives should be used instead of original asset catalogues or working files.
-
-## Suggested GitHub topics
-
-- `ios`
-- `swift`
-- `swiftui`
-- `wellness`
-- `daily-routines`
-- `mindfulness`
-- `fitness`
-- `product-showcase`
-- `proprietary`
-
-## Suggested repository description
-
-> Public product showcase for OZLife — small daily routines for Body, Mind & Energy.
-
-## Information intentionally not published
-
-- Production source code, code excerpts, pseudocode, and private repository access
-- Internal repository structures, implementation details, and source file names
-- Secrets, credentials, certificates, signing data, team identifiers, and configuration identifiers
-- Application, bundle, purchase, entitlement, or other internal identifiers
-- Internal URLs, infrastructure, administrative contacts, and operational email addresses
-- Debug controls, developer menus, diagnostics, test states, and private quality-assurance material
-- Complete data models, persistence details, datasets, localization catalogues, and proprietary program content
-- Real diary, health, voice, feedback, notification, account, device, or other personal data
-- Unapproved visual or audio material
-- Claims of medical efficacy, App Store availability, completed release testing, or guaranteed outcomes
-- Non-public handoff material from the source brief
+**Settings → General → Social preview → Upload `assets/brand/social-preview.png`**
 
 ## Confirmations
 
-- [x] No production application source code or pseudocode was published.
-- [x] No private repository content was accessed or copied.
-- [x] No binary assets were added or transformed because none were available.
-- [x] No product screenshots or interface states were fabricated.
-- [x] No real personal, diary, health, voice, notification, account, or device data was included.
-- [x] No secret, internal identifier, infrastructure detail, or operational contact was added.
-- [x] The architecture documentation remains intentionally abstract.
-- [x] The production source remains clearly described as private.
-- [x] The product remains described as “in active pre-release development.”
-- [x] No App Store availability or completed release testing is claimed.
-- [x] The wellness notice avoids medical claims.
-- [x] The README contains no broken image references.
-- [x] The existing `LICENSE` remains unchanged.
-
-## Owner review before merge
-
-- [ ] Confirm the revised product tone and feature emphasis.
-- [ ] Confirm the copyright holder name and year.
-- [ ] Review the suggested repository description and topics before applying them.
-- [ ] Review wording with the appropriate legal and privacy advisers.
-- [ ] Confirm GitHub Issues are enabled for the repository.
-- [ ] Decide whether `SHOWCASE_REVIEW.md` should remain after merge.
-- [ ] Provide only publication-approved visual exports for a future media update.
-- [ ] Re-run privacy, rights, metadata, link, and rendered-layout review after adding any media.
+- [x] Every imported file was listed in `.showcase-import/MANIFEST.md`.
+- [x] Every imported file was approved in `.showcase-import/PUBLICATION-REVIEW.md`.
+- [x] No source code, configuration, project material, or private metadata was imported.
+- [x] No `.DS_Store` files are included.
+- [x] `.showcase-import/` was not modified.
+- [x] `LICENSE` was not changed.
+- [x] The production source remains private and the product remains described as pre-release.
