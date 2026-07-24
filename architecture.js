@@ -21,6 +21,7 @@
         foundation: "Fundament",
         experiences: "Erlebnisse",
         boundaries: "Grenzen",
+        brief: "Kurzfassung",
       },
       eyebrow: "Öffentlicher technischer Überblick",
       title: "Nativ im Kern. <span>Lokal gedacht.</span>",
@@ -84,6 +85,15 @@
       appleText: "Optional und vom Nutzer gesteuert.",
       mapNote:
         "Diese Darstellung zeigt Produktgrenzen und Beziehungen. Sie ist bewusst keine Abbildung der privaten Produktionsarchitektur.",
+      briefAction: "Technische Kurzfassung",
+      briefEyebrow: "Technische Kurzfassung",
+      briefTitle: "Der öffentliche technische Kern auf einen Blick.",
+      briefIntro:
+        "Eine kompakte Lesefassung für alle, die Plattform, Produktsystem und Abstraktionsgrenzen in einem Zusammenhang erfassen möchten.",
+      briefFlowLabel: "Öffentliche Systembeziehungen",
+      briefPrivateLabel: "Bewusst nicht dokumentiert",
+      briefNote:
+        "Diese Kurzfassung beschreibt Produktgrenzen. Sie ist keine Abbildung der privaten Produktionsarchitektur.",
       boundariesEyebrow: "Bewusster Abstraktionsgrad",
       boundariesTitle: "Klar genug, um das Produkt zu verstehen. Begrenzt genug, um Privates privat zu halten.",
       boundariesText:
@@ -108,7 +118,7 @@
       closingText:
         "OZLife soll sich ruhig, direkt und persönlich anfühlen. Der öffentliche technische Überblick zeigt genau so viel Struktur, wie nötig ist, um diese Richtung zu verstehen.",
       showcase: "OZLife im Showcase erleben",
-      sourceDoc: "Technische Kurzfassung lesen",
+      sourceDoc: "Markdown auf GitHub ansehen",
       footerNote: "Kleine tägliche Routinen für Mind, Body & Energy.",
       vision: "Produktvision",
       privacy: "Datenschutz & Sicherheit",
@@ -125,6 +135,7 @@
         foundation: "Foundation",
         experiences: "Experiences",
         boundaries: "Boundaries",
+        brief: "Brief",
       },
       eyebrow: "Public technical overview",
       title: "Native at the core. <span>Local by design.</span>",
@@ -188,6 +199,15 @@
       appleText: "Optional and user-controlled.",
       mapNote:
         "This view shows product boundaries and relationships. It is intentionally not a map of the private production architecture.",
+      briefAction: "Technical brief",
+      briefEyebrow: "Technical brief",
+      briefTitle: "The public technical core at a glance.",
+      briefIntro:
+        "A compact reading view for anyone who wants to understand the platform, product system, and abstraction boundaries in one coherent frame.",
+      briefFlowLabel: "Public system relationships",
+      briefPrivateLabel: "Deliberately not documented",
+      briefNote:
+        "This brief describes product boundaries. It is not a map of the private production architecture.",
       boundariesEyebrow: "Deliberate abstraction",
       boundariesTitle: "Clear enough to understand the product. Bounded enough to keep private work private.",
       boundariesText:
@@ -212,7 +232,7 @@
       closingText:
         "OZLife should feel calm, direct, and personal. This public technical overview reveals exactly enough structure to make that direction understandable.",
       showcase: "Experience OZLife in the showcase",
-      sourceDoc: "Read the technical summary",
+      sourceDoc: "View the Markdown on GitHub",
       footerNote: "Small daily routines for Mind, Body & Energy.",
       vision: "Product vision",
       privacy: "Privacy & safety",
@@ -229,6 +249,7 @@
         foundation: "Base",
         experiences: "Experiencias",
         boundaries: "Límites",
+        brief: "Resumen",
       },
       eyebrow: "Resumen técnico público",
       title: "Nativa en el núcleo. <span>Local por diseño.</span>",
@@ -292,6 +313,15 @@
       appleText: "Opcionales y bajo control del usuario.",
       mapNote:
         "Esta vista muestra límites y relaciones del producto. No pretende representar la arquitectura privada de producción.",
+      briefAction: "Resumen técnico",
+      briefEyebrow: "Resumen técnico",
+      briefTitle: "El núcleo técnico público de un vistazo.",
+      briefIntro:
+        "Una vista compacta para comprender en un mismo contexto la plataforma, el sistema de producto y los límites de abstracción.",
+      briefFlowLabel: "Relaciones públicas del sistema",
+      briefPrivateLabel: "Deliberadamente no documentado",
+      briefNote:
+        "Este resumen describe los límites del producto. No representa la arquitectura privada de producción.",
       boundariesEyebrow: "Abstracción deliberada",
       boundariesTitle: "Clara para entender el producto. Limitada para proteger el trabajo privado.",
       boundariesText:
@@ -316,7 +346,7 @@
       closingText:
         "OZLife debe sentirse serena, directa y personal. Este resumen técnico público muestra la estructura justa para entender esa dirección.",
       showcase: "Descubrir OZLife en la presentación",
-      sourceDoc: "Leer el resumen técnico",
+      sourceDoc: "Ver el Markdown en GitHub",
       footerNote: "Pequeñas rutinas diarias para Mind, Body y Energy.",
       vision: "Visión del producto",
       privacy: "Privacidad y seguridad",
@@ -333,6 +363,7 @@
         foundation: "Fondamenta",
         experiences: "Esperienze",
         boundaries: "Confini",
+        brief: "Sintesi",
       },
       eyebrow: "Panoramica tecnica pubblica",
       title: "Nativa nel cuore. <span>Locale per scelta.</span>",
@@ -396,6 +427,15 @@
       appleText: "Facoltative e controllate dall'utente.",
       mapNote:
         "Questa vista mostra confini e relazioni del prodotto. Non è intenzionalmente una mappa dell'architettura privata di produzione.",
+      briefAction: "Sintesi tecnica",
+      briefEyebrow: "Sintesi tecnica",
+      briefTitle: "Il nucleo tecnico pubblico in un colpo d'occhio.",
+      briefIntro:
+        "Una vista compatta per comprendere insieme piattaforma, sistema di prodotto e confini di astrazione.",
+      briefFlowLabel: "Relazioni pubbliche del sistema",
+      briefPrivateLabel: "Volutamente non documentato",
+      briefNote:
+        "Questa sintesi descrive i confini del prodotto. Non rappresenta l'architettura privata di produzione.",
       boundariesEyebrow: "Astrazione intenzionale",
       boundariesTitle: "Chiara per comprendere il prodotto. Limitata per proteggere il lavoro privato.",
       boundariesText:
@@ -420,7 +460,7 @@
       closingText:
         "OZLife deve risultare calma, diretta e personale. Questa panoramica tecnica pubblica mostra la struttura necessaria per comprendere tale direzione.",
       showcase: "Scopri OZLife nella presentazione",
-      sourceDoc: "Leggi il riepilogo tecnico",
+      sourceDoc: "Vedi il Markdown su GitHub",
       footerNote: "Piccole routine quotidiane per Mind, Body ed Energy.",
       vision: "Visione del prodotto",
       privacy: "Privacy e sicurezza",
@@ -460,6 +500,7 @@
           <a href="#foundation">${c.nav.foundation}</a>
           <a href="#experiences">${c.nav.experiences}</a>
           <a href="#boundaries">${c.nav.boundaries}</a>
+          <a href="#brief">${c.nav.brief}</a>
           <details class="language-menu">
             <summary aria-label="${c.language}">${languages[page].short}</summary>
             <div class="language-options">${languageLinks}</div>
@@ -477,6 +518,7 @@
           <p class="architecture-hero-intro">${c.intro}</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#foundation">${c.explore}</a>
+            <a class="button button-secondary" href="#brief">${c.briefAction}</a>
           </div>
         </div>
         <div class="architecture-console" aria-label="${c.visualLabel}">
@@ -612,13 +654,76 @@
         </div>
       </section>
 
+      <section class="architecture-section shell" id="brief">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">${c.briefEyebrow}</p>
+            <h2>${c.briefTitle}</h2>
+          </div>
+          <p>${c.briefIntro}</p>
+        </div>
+        <div class="architecture-brief reveal">
+          <header class="architecture-brief-header">
+            <span aria-hidden="true"><i></i><i></i><i></i></span>
+            <strong>${c.briefFlowLabel}</strong>
+            <em>PUBLIC · 01</em>
+          </header>
+          <div class="architecture-brief-facts">
+            ${c.foundations
+              .map(
+                (item) => `
+                  <article>
+                    <span>${item.number} · ${item.label}</span>
+                    <h3>${item.title}</h3>
+                    <p>${item.text}</p>
+                  </article>`,
+              )
+              .join("")}
+          </div>
+          <div class="architecture-brief-flow">
+            <div class="architecture-brief-core">
+              <span>${c.coreLabel}</span>
+              <h3>${c.coreTitle}</h3>
+              <p>${c.coreMeta}</p>
+            </div>
+            <i aria-hidden="true"></i>
+            <div class="architecture-brief-modules">
+              <p>${c.experiencesLabel}</p>
+              <div>
+                ${c.modules.map((module) => `<span>${module.name}</span>`).join("")}
+              </div>
+            </div>
+            <i aria-hidden="true"></i>
+            <div class="architecture-brief-foundations">
+              <p>${c.foundationLabel}</p>
+              <div>
+                <span>${c.localTitle}</span>
+                <span>${c.appleTitle}</span>
+              </div>
+            </div>
+          </div>
+          <aside class="architecture-brief-private">
+            <p>${c.briefPrivateLabel}</p>
+            <ul>
+              ${c.private.map((item) => `<li>${item}</li>`).join("")}
+            </ul>
+          </aside>
+          <footer class="architecture-brief-footer">
+            <p>${c.briefNote}</p>
+            <a
+              href="https://github.com/pythia-said/ozlife-experience/blob/main/docs/architecture.md"
+            >${c.sourceDoc}</a>
+          </footer>
+        </div>
+      </section>
+
       <section class="architecture-closing shell reveal">
         <p class="eyebrow">${c.closingEyebrow}</p>
         <h2>${c.closingTitle}</h2>
         <p>${c.closingText}</p>
         <div class="hero-actions">
           <a class="button button-primary" href="../">${c.showcase}</a>
-          <a class="button button-secondary" href="../../docs/architecture.md">${c.sourceDoc}</a>
+          <a class="button button-secondary" href="#brief">${c.briefAction}</a>
         </div>
       </section>
     </main>

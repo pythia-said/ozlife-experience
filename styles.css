@@ -3490,6 +3490,322 @@ summary {
   border-radius: 2px;
 }
 
+.architecture-brief {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 38px;
+  background:
+    radial-gradient(circle at 86% 16%, rgba(87, 223, 189, 0.08), transparent 28%),
+    radial-gradient(circle at 12% 88%, rgba(168, 149, 255, 0.08), transparent 30%),
+    var(--panel-solid);
+}
+
+.architecture-brief::before {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(to bottom, black, transparent 82%);
+  content: "";
+}
+
+.architecture-brief > * {
+  position: relative;
+  z-index: 1;
+}
+
+.architecture-brief-header {
+  display: grid;
+  min-height: 56px;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.architecture-brief-header > span {
+  display: flex;
+  gap: 6px;
+}
+
+.architecture-brief-header i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.architecture-brief-header i:nth-child(1) {
+  background: var(--mind);
+}
+
+.architecture-brief-header i:nth-child(2) {
+  background: var(--body);
+}
+
+.architecture-brief-header i:nth-child(3) {
+  background: var(--energy);
+}
+
+.architecture-brief-header strong,
+.architecture-brief-header em,
+.architecture-brief-facts article > span,
+.architecture-brief-modules > p,
+.architecture-brief-foundations > p,
+.architecture-brief-private > p {
+  font-size: 0.67rem;
+  font-style: normal;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-brief-header strong {
+  color: var(--muted);
+}
+
+.architecture-brief-header em {
+  justify-self: end;
+  color: var(--gold);
+}
+
+.architecture-brief-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+
+.architecture-brief-facts article {
+  min-width: 0;
+  padding: 30px;
+}
+
+.architecture-brief-facts article + article {
+  border-left: 1px solid var(--line);
+}
+
+.architecture-brief-facts article > span {
+  color: var(--body);
+}
+
+.architecture-brief-facts article:nth-child(1) > span {
+  color: var(--mind);
+}
+
+.architecture-brief-facts article:nth-child(3) > span {
+  color: var(--gold);
+}
+
+.architecture-brief-facts h3 {
+  margin: 34px 0 10px;
+  font-size: clamp(1.65rem, 2.6vw, 2.35rem);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+
+.architecture-brief-facts p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.architecture-brief-flow {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.75fr) 46px minmax(0, 1.35fr) 46px minmax(245px, 0.9fr);
+  align-items: center;
+  gap: 16px;
+  padding: 42px 34px;
+  border-bottom: 1px solid var(--line);
+}
+
+.architecture-brief-core {
+  padding: 24px;
+  border: 1px solid rgba(168, 149, 255, 0.34);
+  border-radius: 21px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(168, 149, 255, 0.13), transparent 40%),
+    rgba(8, 14, 25, 0.9);
+  text-align: center;
+}
+
+.architecture-brief-core > span {
+  color: var(--mind);
+  font-size: 0.65rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.architecture-brief-core h3 {
+  margin: 8px 0 4px;
+  font-size: 2.1rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.architecture-brief-core p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.architecture-brief-flow > i {
+  position: relative;
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, var(--mind), var(--line));
+}
+
+.architecture-brief-flow > i::after {
+  position: absolute;
+  top: -3px;
+  right: -1px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--body);
+  box-shadow: 0 0 14px rgba(87, 223, 189, 0.65);
+  content: "";
+}
+
+.architecture-brief-modules > p,
+.architecture-brief-foundations > p {
+  margin: 0 0 13px;
+  color: var(--muted);
+}
+
+.architecture-brief-modules > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.architecture-brief-modules span,
+.architecture-brief-foundations span {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  font-weight: 720;
+}
+
+.architecture-brief-modules span {
+  padding: 9px 11px;
+  border-radius: 999px;
+}
+
+.architecture-brief-modules span:first-child {
+  border-color: rgba(239, 203, 119, 0.28);
+  color: var(--gold);
+}
+
+.architecture-brief-foundations > div {
+  display: grid;
+  gap: 8px;
+}
+
+.architecture-brief-foundations span {
+  position: relative;
+  padding: 11px 12px 11px 29px;
+  border-radius: 13px;
+}
+
+.architecture-brief-foundations span::before {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--body);
+  box-shadow: 0 0 11px rgba(87, 223, 189, 0.65);
+  content: "";
+  transform: translateY(-50%);
+}
+
+.architecture-brief-foundations span:last-child::before {
+  background: var(--gold);
+  box-shadow: 0 0 11px rgba(239, 203, 119, 0.65);
+}
+
+.architecture-brief-private {
+  padding: 30px 34px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 155, 112, 0.025);
+}
+
+.architecture-brief-private > p {
+  margin: 0 0 15px;
+  color: var(--energy);
+}
+
+.architecture-brief-private ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.architecture-brief-private li {
+  position: relative;
+  padding: 10px 12px 10px 27px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.architecture-brief-private li::before {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--energy);
+  border-radius: 1px;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.architecture-brief-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 22px 34px;
+  background: rgba(4, 8, 15, 0.48);
+}
+
+.architecture-brief-footer p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.73rem;
+  line-height: 1.55;
+}
+
+.architecture-brief-footer a {
+  flex: 0 0 auto;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(239, 203, 119, 0.42);
+  text-underline-offset: 5px;
+}
+
+.architecture-brief-footer a:hover {
+  color: var(--ink);
+}
+
 .architecture-closing {
   position: relative;
   overflow: hidden;
@@ -3830,6 +4146,41 @@ summary {
   .architecture-boundaries {
     grid-template-columns: 1fr;
     align-items: start;
+  }
+
+  .architecture-brief-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-brief-facts article + article {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .architecture-brief-facts h3 {
+    margin-top: 22px;
+  }
+
+  .architecture-brief-flow {
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+  }
+
+  .architecture-brief-flow > i {
+    width: 1px;
+    height: 28px;
+    margin-inline: auto;
+    background: linear-gradient(var(--mind), var(--line));
+  }
+
+  .architecture-brief-flow > i::after {
+    top: auto;
+    right: -3px;
+    bottom: -1px;
+  }
+
+  .architecture-brief-private ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -4572,6 +4923,48 @@ summary {
 
   .architecture-boundary-lists article {
     padding: 24px;
+  }
+
+  .architecture-brief {
+    border-radius: 30px;
+  }
+
+  .architecture-brief-header {
+    grid-template-columns: 1fr auto;
+    padding-inline: 20px;
+  }
+
+  .architecture-brief-header strong {
+    display: none;
+  }
+
+  .architecture-brief-facts article,
+  .architecture-brief-private {
+    padding: 24px 22px;
+  }
+
+  .architecture-brief-flow {
+    padding: 30px 22px;
+  }
+
+  .architecture-brief-modules > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .architecture-brief-modules span {
+    text-align: center;
+  }
+
+  .architecture-brief-private ul {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-brief-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px 22px;
   }
 
   .architecture-closing {
