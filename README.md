@@ -13,6 +13,11 @@
   and everyday energy into the day—one manageable action at a time.
 </p>
 
+<p align="center">
+  <a href="https://pythia-said.github.io/ozlife-experience/"><strong>Open the multilingual showcase</strong></a><br>
+  <sub>Deutsch · English · Español · Italiano</sub>
+</p>
+
 > **Public product showcase**
 >
 > The production application and its source code remain private. The visuals shown here are publication-safe exports from the current pre-release OZLife experience.
