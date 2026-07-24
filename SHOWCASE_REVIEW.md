@@ -1,22 +1,23 @@
 # Showcase review
 
-This file records the approved public-media import for `pythia-said/ozlife-experience`.
+This file records the approved media import and the later authentic-visual redesign for `pythia-said/ozlife-experience`.
 
-## Source and validation
+## Approved import baseline
 
-- Exact source package used: `.showcase-import/`
+- Exact approved source package: `.showcase-import/`
 - Review inputs: `.showcase-import/MANIFEST.md` and `.showcase-import/PUBLICATION-REVIEW.md`
-- The two review documents agree: all ten imported media files are listed in the manifest and explicitly approved in the publication review.
-- Every expected file exists. Image dimensions match the review; MP4 and GIF containers were opened successfully.
-- The package contains only the two review documents and the ten approved media files. It contains no source code, project files, configuration files, raw asset catalogues, private metadata, or `.DS_Store` files.
+- The review documents agreed: all ten imported media files were listed in the manifest and explicitly approved for publication.
+- The package contained no source code, project files, configuration, raw asset catalogues, private metadata, or `.DS_Store` files.
 - `.showcase-import/` was read only and was not modified.
 
-## Imported files
+The imported brand, screenshot, GIF, and MP4 files remain byte-for-byte unchanged.
 
-| Destination | Dimensions | Type and intended use |
+### Approved imported files
+
+| Public file | Dimensions | Type and original review use |
 | --- | --- | --- |
 | `assets/brand/app-icon-approved.png` | 1024 × 1024 | Authentic icon export; README masthead |
-| `assets/brand/hero-approved.png` | 2400 × 1200 | Derived composition; README hero |
+| `assets/brand/hero-approved.png` | 2400 × 1200 | Derived composition; historical README hero |
 | `assets/brand/social-preview.png` | 1280 × 640 | Derived composition; manual GitHub social preview |
 | `assets/screenshots/01-daily-hub.png` | 1290 × 2796 | Authentic capture; Daily Hub |
 | `assets/screenshots/02-daily-focus.png` | 1290 × 2796 | Authentic capture; focus ritual |
@@ -24,92 +25,101 @@ This file records the approved public-media import for `pythia-said/ozlife-exper
 | `assets/screenshots/04-mind-games.png` | 1290 × 2796 | Authentic capture; Mind Games |
 | `assets/screenshots/05-energy-review.png` | 1290 × 2796 | Authentic capture; weekly Energy Review |
 | `assets/screenshots/06-garage.png` | 1290 × 2796 | Authentic capture; Garage progress |
-| `assets/video/ozlife-teaser.mp4` | 1080 × 1920 | H.264, 21 s, 559,236 bytes; silent main teaser |
-| `assets/video/ozlife-teaser.gif` | 360 × 640 | GIF, 8 s, 163,566 bytes; inline teaser preview |
+| `assets/video/ozlife-teaser.mp4` | 1080 × 1920 | H.264, 21 s, 559,236 bytes; historical silent teaser |
+| `assets/video/ozlife-teaser.gif` | 360 × 640 | GIF, 8 s, 163,566 bytes; historical inline preview |
 
-## README and documentation changes
+## Authentic-visual redesign
 
-- Refined `README.md` into a calmer, more focused GitHub product landing page while preserving the approved icon, hero, authentic captures, and GIF-linked MP4 teaser.
-- Preserved the proprietary-source status and active pre-release positioning. The README does not claim App Store availability or a final build.
-- Updated `assets/brand/README.md` and `assets/screenshots/README.md`, and added `assets/video/README.md`, with dimensions, uses, alt text, and provenance for each file.
+The private OZLife reference checkout was inspected and run strictly read only. Its External Release build was compiled with all build products, package data, screenshots, and temporary tooling written into this public showcase working directory.
 
-### Final-polish changes
+An isolated iPhone 17 Pro simulator running iOS 26.5 was configured with English UI and a fresh synthetic state. The simulator contained no personal content or production account data.
 
-- Preserved the hero and concise emotional product explanation.
-- Replaced the cramped three-column Mind · Body · Energy presentation with three readable, vertically stacked product moments.
-- Removed the repeated six-image screenshot story and reduced the supporting gallery to two previously unfeatured captures.
-- Made One day with OZLife a compact, text-led sequence supported only by the Daily Hub.
-- Moved See OZLife in motion directly after the daily rhythm and increased the inline GIF preview width from 260 to 520 pixels.
-- Reduced Product highlights from eleven items to six concise categories, with detailed coverage remaining in `docs/features.md`.
-- Added Follow the journey as a calm closing moment before the proprietary and contact sections.
-- Tightened Built for iOS, Product status, and Privacy and wellness without removing trust, medical, pre-release, or proprietary statements.
+### New authentic captures
 
-### Presentation-image refinement
+| Public file | Dimensions | Source state | README role |
+| --- | --- | --- | --- |
+| `assets/captures/daily-hub.png` | 1206 × 2622 | Fresh native External Release capture | One day with OZLife |
+| `assets/captures/library.png` | 1206 × 2622 | Fresh native External Release capture | Beyond the daily rhythm |
+| `assets/captures/garage.png` | 1206 × 2622 | Fresh native External Release capture | Beyond the daily rhythm |
 
-- Added six landscape presentation derivatives under `assets/presentation/`, all at 1600 × 1000 pixels.
-- Replaced direct portrait screenshot embeds in Mind, Body, Energy, One day with OZLife, and Inside the experience.
-- Made every presentation image clickable, linking to its corresponding complete screenshot in `assets/screenshots/`.
-- Kept the teaser section and its 520-pixel inline preview unchanged.
-- Used only deterministic crops and compositions from the approved public screenshots; no UI, controls, copy, or product state was generated or invented.
+All three files are complete portrait captures. They contain authentic implemented UI and were not cropped, composited, stretched, retouched, or placed into a decorative frame.
 
-| Presentation file | Read-only source | README section |
-| --- | --- | --- |
-| `assets/presentation/daily-flow-feature.png` | `assets/screenshots/01-daily-hub.png` | One day with OZLife |
-| `assets/presentation/focus-feature.png` | `assets/screenshots/02-daily-focus.png` | Inside the experience |
-| `assets/presentation/body-feature.png` | `assets/screenshots/03-guided-body.png` | Body |
-| `assets/presentation/mind-feature.png` | `assets/screenshots/04-mind-games.png` | Mind |
-| `assets/presentation/energy-feature.png` | `assets/screenshots/05-energy-review.png` | Energy |
-| `assets/presentation/garage-feature.png` | `assets/screenshots/06-garage.png` | Inside the experience |
+## Visuals retained
 
-## Final screenshot usage map
+- `assets/brand/app-icon-approved.png` remains the README masthead identifier.
+- `assets/screenshots/04-mind-games.png` appears once in Mind.
+- `assets/screenshots/03-guided-body.png` appears once in Body.
+- `assets/screenshots/05-energy-review.png` appears once in Energy.
+- `assets/brand/social-preview.png` remains available for its separate manual repository-setting use.
 
-| Presentation asset | Primary README role | Full screenshot link target |
-| --- | --- | --- |
-| `assets/presentation/daily-flow-feature.png` | One day with OZLife | `assets/screenshots/01-daily-hub.png` |
-| `assets/presentation/focus-feature.png` | Inside the experience | `assets/screenshots/02-daily-focus.png` |
-| `assets/presentation/body-feature.png` | Body | `assets/screenshots/03-guided-body.png` |
-| `assets/presentation/mind-feature.png` | Mind | `assets/screenshots/04-mind-games.png` |
-| `assets/presentation/energy-feature.png` | Energy | `assets/screenshots/05-energy-review.png` |
-| `assets/presentation/garage-feature.png` | Inside the experience | `assets/screenshots/06-garage.png` |
-| `assets/video/ozlife-teaser.gif` | See OZLife in motion, displayed at 520 px | `assets/video/ozlife-teaser.mp4` |
+## Visuals replaced
+
+- The dark multi-screen `assets/brand/hero-approved.png` was replaced in the README by a lighter icon-led masthead.
+- The previous Daily Hub presentation composite was replaced by `assets/captures/daily-hub.png`.
+- The previous Garage presentation composite was replaced by `assets/captures/garage.png`.
+- The former Inside the experience section was replaced by Beyond the daily rhythm, using fresh Library and Garage states.
+
+## Visuals removed from the README
+
+- All six files under `assets/presentation/` were removed from the README. They remain documented historical derivatives.
+- `assets/video/ozlife-teaser.gif` and `assets/video/ozlife-teaser.mp4` were removed from the README because they are screenshot slideshows, not genuine app navigation.
+- The approved focus screenshot and other replaced full-size captures remain available as archives but are not repeated in the main product story.
+
+The complete per-file decisions are recorded in [VISUAL_AUDIT.md](VISUAL_AUDIT.md).
+
+## Motion recording
+
+No replacement recording was published. The available fresh app state does not contain the synthetic completion and unlocked progression required for a coherent 15–20 second flow, and the task explicitly prohibits staging a weak or misleading substitute.
+
+[MEDIA_NEEDED.md](MEDIA_NEEDED.md) requests a publication-safe prepared state for a genuine Daily Hub → focus → activity → completion → reward recording.
+
+## Product-state findings and missing media
+
+- The Focus Ritual choice screen was not published because its Story control overlaps the status area on the capture device.
+- The Diary screen was not published because two control labels remain German in the otherwise English UI.
+- The approved existing weekly Energy Review remains stronger than a fresh zero-history screen.
+- No placeholders, fake UI, invented behaviour, or artificial progress were introduced.
+
+## README redesign
+
+- Shortened the visual narrative and removed the repeated screenshot gallery.
+- Assigned every major visual one clear purpose.
+- Used authentic portrait UI at restrained widths, linked directly to the full-size image.
+- Preserved active pre-release status, proprietary source positioning, non-medical wording, and the absence of any App Store availability claim.
+- Kept six concise product highlights and the existing public documentation links.
 
 ## Privacy and rights review
 
-- All six screenshots are authentic English app captures exported as publication-safe derivatives. Status bars and lower developer-control zones were excluded.
-- The visible progress and states are synthetic; no personal data, debug UI, internal data, third-party footage, or music was imported.
-- The icon and all app visuals are app-owned. The reviewed video contains only the approved screenshots and app icon.
-- All imported files were listed in `MANIFEST.md` and approved in `PUBLICATION-REVIEW.md`.
+- New captures contain synthetic zero-state content only.
+- No names, accounts, health data, diary entries, notifications, personal identifiers, debug controls, developer symbols, or purchase states are visible.
+- The private app repository and all original app assets were used read only.
+- No production source code, project files, configuration, raw asset catalogues, internal documentation, or private metadata were copied.
+- All imported files from `.showcase-import/` remain covered by the original manifest and publication approval.
 
 ## Intentionally excluded
 
-- `MANIFEST.md` and `PUBLICATION-REVIEW.md` were used for review only and were not copied into public asset folders.
-- No private app source, project files, raw asset catalogues, configuration, internal documentation, metadata, or unapproved media was imported.
-- No other files were present in the approved package.
+- Private app source code and project material.
+- Raw app assets and asset catalogues.
+- Temporary build products, simulator data, capture tooling, and audit contact sheets.
+- The Focus Ritual and Diary captures described in `MEDIA_NEEDED.md`.
+- Any motion export not recorded from genuine app navigation.
 
 ## Manual GitHub social preview
 
-The social-preview image is included but repository settings were not changed. To apply it manually in GitHub:
+The social-preview image is included, but this review does not claim that repository settings were changed.
 
 **Settings → General → Social preview → Upload `assets/brand/social-preview.png`**
 
-The approved social-preview binary was not changed by the final-polish work, and this document does not claim that the repository setting was updated.
-
-## Manual review recommendations
-
-- Review the final README on GitHub in both light and dark themes.
-- Check the landscape presentation images on a narrow mobile viewport.
-- Confirm the final public wording and visual pacing before merge.
-- Upload `assets/brand/social-preview.png` manually if the GitHub repository setting has not already been configured.
-
 ## Confirmations
 
-- [x] Every imported file was listed in `.showcase-import/MANIFEST.md`.
-- [x] Every imported file was approved in `.showcase-import/PUBLICATION-REVIEW.md`.
-- [x] No source code, configuration, project material, or private metadata was imported.
-- [x] No `.DS_Store` files are included.
+- [x] Every original imported file was listed in `.showcase-import/MANIFEST.md`.
+- [x] Every original imported file was approved in `.showcase-import/PUBLICATION-REVIEW.md`.
 - [x] `.showcase-import/` was not modified.
-- [x] No approved image, GIF, MP4, or other binary asset was modified, renamed, regenerated, resized, recompressed, or replaced during final polish.
-- [x] All six original screenshots remained byte-identical while new presentation derivatives were created.
-- [x] No source code was added.
-- [x] `LICENSE` was not changed.
-- [x] The production source remains private and the product remains described as pre-release.
+- [x] The six approved source screenshots remain byte-identical.
+- [x] The private OZLife repository was used read only and its working tree was unchanged after capture.
+- [x] No original app asset was modified.
+- [x] No production source code or private configuration was copied.
+- [x] No personal information was introduced.
+- [x] No `.DS_Store` file is included.
+- [x] `LICENSE` was unchanged.
+- [x] The product remains described as active pre-release software with no App Store availability claim.
