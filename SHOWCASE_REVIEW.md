@@ -1,94 +1,63 @@
 # Showcase review
 
-This file is a pre-merge checklist for the repository owner. It records the intended public scope of the showcase foundation.
+This file records the approved public-media import for `pythia-said/ozlife-experience`.
 
-## Files created
+## Source and validation
 
-- `NOTICE.md`
-- `SECURITY.md`
-- `CONTRIBUTING.md`
-- `SHOWCASE_REVIEW.md`
-- `docs/product-vision.md`
-- `docs/features.md`
-- `docs/architecture.md`
-- `docs/privacy-and-safety.md`
-- `docs/roadmap.md`
-- `assets/brand/README.md`
-- `assets/screenshots/README.md`
-- `assets/diagrams/README.md`
+- Exact source package used: `.showcase-import/`
+- Review inputs: `.showcase-import/MANIFEST.md` and `.showcase-import/PUBLICATION-REVIEW.md`
+- The two review documents agree: all ten imported media files are listed in the manifest and explicitly approved in the publication review.
+- Every expected file exists. Image dimensions match the review; MP4 and GIF containers were opened successfully.
+- The package contains only the two review documents and the ten approved media files. It contains no source code, project files, configuration files, raw asset catalogues, private metadata, or `.DS_Store` files.
+- `.showcase-import/` was read only and was not modified.
 
-The existing `README.md` has been replaced with the full product showcase. The existing `LICENSE` has not been edited.
+## Imported files
 
-## Media still required
+| Destination | Dimensions | Type and intended use |
+| --- | --- | --- |
+| `assets/brand/app-icon-approved.png` | 1024 × 1024 | Authentic icon export; README masthead |
+| `assets/brand/hero-approved.png` | 2400 × 1200 | Derived composition; README hero |
+| `assets/brand/social-preview.png` | 1280 × 640 | Derived composition; manual GitHub social preview |
+| `assets/screenshots/01-daily-hub.png` | 1290 × 2796 | Authentic capture; Daily Hub |
+| `assets/screenshots/02-daily-focus.png` | 1290 × 2796 | Authentic capture; focus ritual |
+| `assets/screenshots/03-guided-body.png` | 1290 × 2796 | Authentic capture; guided Body session |
+| `assets/screenshots/04-mind-games.png` | 1290 × 2796 | Authentic capture; Mind Games |
+| `assets/screenshots/05-energy-review.png` | 1290 × 2796 | Authentic capture; weekly Energy Review |
+| `assets/screenshots/06-garage.png` | 1290 × 2796 | Authentic capture; Garage progress |
+| `assets/video/ozlife-teaser.mp4` | 1080 × 1920 | H.264, 21 s, 559,236 bytes; silent main teaser |
+| `assets/video/ozlife-teaser.gif` | 360 × 640 | GIF, 8 s, 163,566 bytes; inline teaser preview |
 
-- `assets/screenshots/01-daily-hub.png`
-- `assets/screenshots/02-daily-focus.png`
-- `assets/screenshots/03-guided-body.png`
-- `assets/screenshots/04-mind-games.png`
-- `assets/screenshots/05-energy-review.png`
-- `assets/screenshots/06-garage.png`
-- An owner-approved repository avatar or app icon
-- An owner-approved hero image, if one is desired
-- Optional owner-approved social preview artwork
+## README and documentation changes
 
-All media remains subject to the rights, provenance, consent, privacy, metadata, localization, and presentation checks in the [brand guide](assets/brand/README.md) and [screenshot guide](assets/screenshots/README.md).
+- Reworked `README.md` into a visual GitHub product landing page with the approved icon, hero, three product pillars, daily flow, full screenshot gallery, and GIF-linked MP4 teaser.
+- Preserved the proprietary-source status and active pre-release positioning. The README does not claim App Store availability or a final build.
+- Updated `assets/brand/README.md` and `assets/screenshots/README.md`, and added `assets/video/README.md`, with dimensions, uses, alt text, and provenance for each file.
 
-## Suggested GitHub topics
+## Privacy and rights review
 
-- `ios`
-- `swift`
-- `swiftui`
-- `wellness`
-- `daily-routines`
-- `mindfulness`
-- `fitness`
-- `product-showcase`
-- `proprietary`
+- All six screenshots are authentic English app captures exported as publication-safe derivatives. Status bars and lower developer-control zones were excluded.
+- The visible progress and states are synthetic; no personal data, debug UI, internal data, third-party footage, or music was imported.
+- The icon and all app visuals are app-owned. The reviewed video contains only the approved screenshots and app icon.
+- All imported files were listed in `MANIFEST.md` and approved in `PUBLICATION-REVIEW.md`.
 
-## Suggested repository description
+## Intentionally excluded
 
-> Public product showcase for OZLife — small daily routines for Body, Mind & Energy.
+- `MANIFEST.md` and `PUBLICATION-REVIEW.md` were used for review only and were not copied into public asset folders.
+- No private app source, project files, raw asset catalogues, configuration, internal documentation, metadata, or unapproved media was imported.
+- No other files were present in the approved package.
 
-## Intentionally not published
+## Manual GitHub social preview
 
-- Production source code, code excerpts, pseudocode, and private repository access
-- Internal repository structures, source file names, architecture wiring, and implementation details
-- Secrets, keys, tokens, certificates, provisioning profiles, signing identities, and team identifiers
-- Application, purchase, entitlement, bundle, or internal configuration identifiers
-- Internal URLs, infrastructure, administrative contacts, and operational email addresses
-- Branch names, commit history, pull-request details, debug controls, test bypasses, and private QA information
-- Complete data models, persistence keys, database structures, migrations, and repository interfaces
-- Raw localization catalogues, complete datasets, proprietary program definitions, and full exercise scripts
-- Real diary, health, voice, feedback, notification, diagnostic, account, or device data
-- Real personal identities, biographies, voice credits, and likenesses without explicit consent
-- Store submission material, unresolved launch blockers, sandbox details, and operational release procedures
-- Original visual or audio assets pending ownership and redistribution review
-- Claims of medical efficacy, guaranteed outcomes, App Store availability, or completed release validation
-- Non-public handoff material from the source brief
+The social-preview image is included but repository settings were not changed. To apply it manually in GitHub:
+
+**Settings → General → Social preview → Upload `assets/brand/social-preview.png`**
 
 ## Confirmations
 
-- [x] This showcase contains no production application source code.
-- [x] No pseudocode has been added.
-- [x] No assets were copied from another repository.
-- [x] No real personal, diary, health, or voice data has been included.
-- [x] The architecture description is intentionally abstract.
-- [x] The production source code is clearly described as private.
-- [x] The general-wellness notice avoids medical claims.
-- [x] The product status is stated as “in active pre-release development.”
-- [x] No App Store availability or completed release testing is claimed.
-- [x] The existing `LICENSE` remains unchanged.
-- [x] The main README does not reference missing images.
-
-## Owner review before merge
-
-- [ ] Confirm all product descriptions remain accurate and publicly suitable.
-- [ ] Confirm the copyright holder name and year.
-- [ ] Review the suggested repository description and topics before applying them.
-- [ ] Decide whether this review file should remain on the default branch after merge.
-- [ ] Review the wording with the appropriate legal and privacy advisers.
-- [ ] Confirm any future screenshots use synthetic data and approved product states.
-- [ ] Complete rights, provenance, consent, and redistribution checks for every future media file.
-- [ ] Confirm future screenshot dimensions and device framing against the approved presentation standard.
-- [ ] Verify that GitHub Issues are enabled for the repository.
-- [ ] Perform a final public-view review of all rendered Markdown and the Mermaid diagram.
+- [x] Every imported file was listed in `.showcase-import/MANIFEST.md`.
+- [x] Every imported file was approved in `.showcase-import/PUBLICATION-REVIEW.md`.
+- [x] No source code, configuration, project material, or private metadata was imported.
+- [x] No `.DS_Store` files are included.
+- [x] `.showcase-import/` was not modified.
+- [x] `LICENSE` was not changed.
+- [x] The production source remains private and the product remains described as pre-release.

@@ -1,17 +1,15 @@
-# Brand asset preparation
+# OZLife brand assets
 
 [Back to the showcase](../../README.md)
 
-No brand images are published in this repository yet.
+All files in this folder are public-safe derivatives copied from the reviewed `.showcase-import/` package. Original private app assets were not modified or imported; only approved exports are included here.
 
-Before adding any app icon, hero artwork, social card, launch artwork, motif, avatar, or other brand material, the repository owner should confirm:
+| File | Dimensions | Type | Intended use | Alt text |
+| --- | --- | --- | --- | --- |
+| `app-icon-approved.png` | 1024 × 1024 | Authentic icon export | README masthead and compact product identifier | `OZLife app icon` |
+| `hero-approved.png` | 2400 × 1200 | Derived composition of authentic app captures | README hero | `OZLife Daily Hub in a restrained dark showcase composition` |
+| `social-preview.png` | 1280 × 640 | Derived composition of authentic icon and Daily Hub capture | Manual GitHub social-preview upload | `OZLife social preview with the app icon and Daily Hub` |
 
-- Copyright ownership and any third-party licence terms
-- Generative-image provenance and permitted commercial use
-- Consent for identifiable people, performers, voices, or likenesses
-- Potential trademark conflicts
-- Approval of the exact exported file for public redistribution
-- Sufficient resolution, appropriate cropping, and accessible alternative text
-- Whether localization-specific artwork is suitable for the intended context
+For the repository social card, upload `social-preview.png` manually in GitHub: **Settings → General → Social preview**. This repository includes the file but does not change GitHub repository settings.
 
-Only approved, publication-ready exports should be placed here. Do not copy original asset catalogues, working files, or media from a private repository.
+No raw asset catalogues, working files, source media, or private metadata are included.
