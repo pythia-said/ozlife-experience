@@ -2347,11 +2347,11 @@ summary {
 
 .architecture-hero {
   display: grid;
-  min-height: min(860px, calc(100vh - 76px));
+  min-height: auto;
   grid-template-columns: minmax(0, 1.04fr) minmax(410px, 0.8fr);
   align-items: center;
   gap: clamp(52px, 8vw, 116px);
-  padding-block: 82px 104px;
+  padding-block: 64px 40px;
 }
 
 .architecture-hero h1,
@@ -2576,7 +2576,11 @@ summary {
 }
 
 .architecture-section {
-  padding-block: clamp(96px, 13vw, 164px);
+  padding-block: clamp(80px, 8vw, 112px);
+}
+
+.architecture-section#foundation {
+  padding-top: 52px;
 }
 
 .architecture-section .section-heading h2 {
@@ -3812,7 +3816,7 @@ summary {
   }
 
   .architecture-hero {
-    padding-block: 52px 72px;
+    padding-block: 44px 36px;
   }
 
   .architecture-hero h1 {
@@ -3834,7 +3838,11 @@ summary {
   }
 
   .architecture-section {
-    padding-block: 82px;
+    padding-block: 64px;
+  }
+
+  .architecture-section#foundation {
+    padding-top: 40px;
   }
 
   .architecture-foundations {
