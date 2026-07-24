@@ -29,9 +29,32 @@ This file records the approved public-media import for `pythia-said/ozlife-exper
 
 ## README and documentation changes
 
-- Reworked `README.md` into a visual GitHub product landing page with the approved icon, hero, three product pillars, daily flow, full screenshot gallery, and GIF-linked MP4 teaser.
+- Refined `README.md` into a calmer, more focused GitHub product landing page while preserving the approved icon, hero, authentic captures, and GIF-linked MP4 teaser.
 - Preserved the proprietary-source status and active pre-release positioning. The README does not claim App Store availability or a final build.
 - Updated `assets/brand/README.md` and `assets/screenshots/README.md`, and added `assets/video/README.md`, with dimensions, uses, alt text, and provenance for each file.
+
+### Final-polish changes
+
+- Preserved the hero and concise emotional product explanation.
+- Replaced the cramped three-column Mind · Body · Energy presentation with three readable, vertically stacked product moments.
+- Removed the repeated six-image screenshot story and reduced the supporting gallery to two previously unfeatured captures.
+- Made One day with OZLife a compact, text-led sequence supported only by the Daily Hub.
+- Moved See OZLife in motion directly after the daily rhythm and increased the inline GIF preview width from 260 to 520 pixels.
+- Reduced Product highlights from eleven items to six concise categories, with detailed coverage remaining in `docs/features.md`.
+- Added Follow the journey as a calm closing moment before the proprietary and contact sections.
+- Tightened Built for iOS, Product status, and Privacy and wellness without removing trust, medical, pre-release, or proprietary statements.
+
+## Final screenshot usage map
+
+| Asset | Primary README role | Repeated elsewhere in README |
+| --- | --- | --- |
+| `assets/screenshots/01-daily-hub.png` | One day with OZLife | No |
+| `assets/screenshots/02-daily-focus.png` | Inside the experience | No |
+| `assets/screenshots/03-guided-body.png` | Body | No |
+| `assets/screenshots/04-mind-games.png` | Mind | No |
+| `assets/screenshots/05-energy-review.png` | Energy | No |
+| `assets/screenshots/06-garage.png` | Inside the experience | No |
+| `assets/video/ozlife-teaser.gif` | See OZLife in motion, displayed at 520 px | No |
 
 ## Privacy and rights review
 
@@ -52,6 +75,15 @@ The social-preview image is included but repository settings were not changed. T
 
 **Settings → General → Social preview → Upload `assets/brand/social-preview.png`**
 
+The approved social-preview binary was not changed by the final-polish work, and this document does not claim that the repository setting was updated.
+
+## Manual review recommendations
+
+- Review the final README on GitHub in both light and dark themes.
+- Check the two-column supporting gallery on a narrow mobile viewport.
+- Confirm the final public wording and visual pacing before merge.
+- Upload `assets/brand/social-preview.png` manually if the GitHub repository setting has not already been configured.
+
 ## Confirmations
 
 - [x] Every imported file was listed in `.showcase-import/MANIFEST.md`.
@@ -59,5 +91,7 @@ The social-preview image is included but repository settings were not changed. T
 - [x] No source code, configuration, project material, or private metadata was imported.
 - [x] No `.DS_Store` files are included.
 - [x] `.showcase-import/` was not modified.
+- [x] No approved image, GIF, MP4, or other binary asset was modified, renamed, regenerated, resized, recompressed, or replaced during final polish.
+- [x] No source code was added.
 - [x] `LICENSE` was not changed.
 - [x] The production source remains private and the product remains described as pre-release.

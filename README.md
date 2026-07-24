@@ -18,6 +18,7 @@
 </p>
 
 > **Public product showcase**
+>
 > The production application and its source code remain private. The visuals shown here are publication-safe exports from the current pre-release OZLife experience.
 
 ## Why OZLife?
@@ -28,9 +29,35 @@ OZLife begins with the day already in front of you. Choose a focus, take one app
 
 ## Mind · Body · Energy
 
-| Mind | Body | Energy |
-| :--- | :--- | :--- |
-| **Create a little more space between thought and reaction.**<br><br>Short games and thoughtful practices offer a calmer place to return to. Build focus in moments that fit the day.<br><br><img src="assets/screenshots/04-mind-games.png" alt="OZLife Mind Games hub with a daily pick and focus activities" width="210"> | **Bring movement back into the day without needing a perfect schedule.**<br><br>Choose guided sessions that meet your energy where it is. Small, clear movement can still change the shape of a day.<br><br><img src="assets/screenshots/03-guided-body.png" alt="OZLife guided warm-up workout with clear exercise progress" width="210"> | **Notice what drains, restores, and quietly shapes everyday life.**<br><br>Check in without turning wellbeing into a score. Gentle review makes patterns easier to see and act on.<br><br><img src="assets/screenshots/05-energy-review.png" alt="OZLife weekly Energy Review with patterns and highlights" width="210"> |
+### Mind
+
+**Create a little more space between thought and reaction.**
+
+Short games and thoughtful practices offer a calmer place to return to. Build focus in moments that fit the day.
+
+<p align="center">
+  <img src="assets/screenshots/04-mind-games.png" alt="OZLife Mind Games hub with a daily pick and focus activities" width="360">
+</p>
+
+### Body
+
+**Bring movement back into the day without needing a perfect schedule.**
+
+Choose guided sessions that meet your energy where it is. Small, clear movement can still change the shape of a day.
+
+<p align="center">
+  <img src="assets/screenshots/03-guided-body.png" alt="OZLife guided warm-up workout with clear exercise progress" width="360">
+</p>
+
+### Energy
+
+**Notice what drains, restores, and quietly shapes everyday life.**
+
+Check in without turning wellbeing into a score. Gentle review makes patterns easier to see and act on.
+
+<p align="center">
+  <img src="assets/screenshots/05-energy-review.png" alt="OZLife weekly Energy Review with patterns and highlights" width="360">
+</p>
 
 The three areas are distinct enough to meet a particular need, and connected enough to support the whole day.
 
@@ -38,65 +65,70 @@ The three areas are distinct enough to meet a particular need, and connected eno
 
 **Choose a focus** → **Take one small action** → **Notice the effect** → **Build visible progress**
 
-| Choose | Act | Continue |
-| :--- | :--- | :--- |
-| <img src="assets/screenshots/01-daily-hub.png" alt="OZLife Daily Hub with Mind, Body, and Energy focus" width="210"><br><strong>Your day at a glance</strong> | <img src="assets/screenshots/02-daily-focus.png" alt="OZLife Energy ritual for choosing a daily focus" width="210"><br><strong>Choose what your day needs</strong> | <img src="assets/screenshots/06-garage.png" alt="OZLife Garage showing avatar sets and visible progress" width="210"><br><strong>Let consistency take shape</strong> |
+The Daily Hub brings that rhythm together in one calm place: today’s focus, an approachable next step, and progress that grows through consistency.
 
-## Screenshot story
-
-|  |  |
-| :--- | :--- |
-| <img src="assets/screenshots/01-daily-hub.png" alt="OZLife Daily Hub showing Mind, Body, and Energy focus" width="230"><br>**Your day at a glance** | <img src="assets/screenshots/02-daily-focus.png" alt="OZLife daily focus Energy ritual" width="230"><br>**Choose what your day needs** |
-| <img src="assets/screenshots/03-guided-body.png" alt="OZLife guided Body workout session" width="230"><br>**Move with clear, guided sessions** | <img src="assets/screenshots/04-mind-games.png" alt="OZLife Mind Games hub and daily pick" width="230"><br>**Train focus through play** |
-| <img src="assets/screenshots/05-energy-review.png" alt="OZLife weekly Energy Review with trends" width="230"><br>**See what shapes your energy** | <img src="assets/screenshots/06-garage.png" alt="OZLife Garage with avatar sets and progression" width="230"><br>**Turn consistency into visible progress** |
+<p align="center">
+  <img src="assets/screenshots/01-daily-hub.png" alt="OZLife Daily Hub bringing together focus, daily actions, and visible progress" width="360">
+</p>
 
 ## See OZLife in motion
 
-<a href="assets/video/ozlife-teaser.mp4"><img src="assets/video/ozlife-teaser.gif" alt="Silent animated preview of the OZLife daily flow" width="260"></a>
+<p align="center">
+  <a href="assets/video/ozlife-teaser.mp4"><img src="assets/video/ozlife-teaser.gif" alt="Silent animated preview of the current pre-release OZLife daily flow" width="520"></a>
+</p>
 
-A short, silent preview of the daily flow, from choosing a focus to visible progress. [Watch or download the MP4 teaser](assets/video/ozlife-teaser.mp4) (21 seconds, 559 KB).
+A short, silent preview of the current pre-release experience, from choosing a focus to visible progress.
+
+[Watch or download the MP4 teaser](assets/video/ozlife-teaser.mp4) (21 seconds, 559 KB).
+
+## Inside the experience
+
+|  |  |
+| :---: | :---: |
+| <img src="assets/screenshots/02-daily-focus.png" alt="OZLife Energy ritual for choosing what the day needs" width="230"><br>**Choose what your day needs** | <img src="assets/screenshots/06-garage.png" alt="OZLife Garage showing avatar sets and visible progress" width="230"><br>**Turn consistency into visible progress** |
 
 ## Product highlights
 
-- **A calmer daily center** — The Daily Hub brings together focus, guidance, activities, progress, rewards, and weekly context.
-- **A deliberate starting ritual** — An atmospheric interaction helps people choose Mind, Body, or Energy as the day’s focus.
-- **Movement that fits real schedules** — Short workouts, guided sessions, adaptable routines, and structured 28-day paths.
-- **Space for focus and reflection** — Mind games, practical prompts, breathing, rest practices, and favorites.
-- **Awareness beyond a single score** — The Energy Compass, personal check-ins, weekly patterns, guided mini-sessions, and small experiments.
-- **Practical everyday support** — Nutrition basics, recipes, recipe details, and shopping-list support.
-- **A private place to return to** — Diary entries, voice notes, saved content, a personal Library, and optional biometric protection.
-- **Progress with character** — XP, streaks, milestones, avatars, collectibles, badges, outfits, and visual Garage rewards.
-- **Optional depth** — A free daily foundation with optional premium experiences across programs, games, insights, and selected rewards.
-- **Apple platform connections** — Optional Apple Health access, notifications, audio, sharing, biometric protection, and a home-screen widget.
-- **Multiple languages** — Content structures for German, English, Spanish, and Italian.
+- **Daily rhythm** — A calm hub connects focus, small actions, reflection, and visible progress.
+- **Mind** — Short games and thoughtful practices create space for focus and reflection.
+- **Body** — Guided sessions and adaptable routines bring movement into real schedules.
+- **Energy** — Check-ins and weekly patterns make everyday influences easier to notice.
+- **Reflection and privacy** — Personal entries, saved content, and optional protection support a private place to return to.
+- **Progression and rewards** — XP, streaks, milestones, avatars, and collectibles make consistency tangible without turning it into a contest.
 
 Explore the complete [feature overview](docs/features.md).
 
 ## A calmer kind of progression
 
-OZLife makes consistency visible without making personal wellbeing a contest. XP, streaks, milestones, 28-day paths, and visual rewards are there to support return and recognition—not urgency or comparison.
+OZLife makes consistency visible without making personal wellbeing a contest. Its progression systems are designed to support return and recognition—not urgency or comparison.
 
 > Choose what matters today. Take a small step. Notice its effect. Continue when the next day arrives.
 
 ## Built for iOS
 
-OZLife is a native iOS application written in **Swift** and **SwiftUI**. Its product structure centers on Daily, Mind, Body, Energy, Diary, Nutrition, and Garage experiences.
-
-Progress and personal content are designed primarily around local, on-device use. Optional Apple platform integrations remain under user control. This public description is intentionally abstract and does not expose source structure, storage schemas, identifiers, entitlements, or infrastructure.
+OZLife is a native iOS application written in **Swift** and **SwiftUI**, centered on Daily, Mind, Body, Energy, Diary, Nutrition, and Garage experiences. Progress and personal content are designed primarily around local, on-device use, with optional Apple platform integrations remaining under user control.
 
 See the [public architecture overview](docs/architecture.md).
 
 ## Product status
 
-OZLife is **in active pre-release development**. This status does not imply App Store availability, completed release testing, or final approval of all media and branding assets.
+OZLife is **in active pre-release development**. This does not imply App Store availability, completed release testing, or a guaranteed release date.
 
 Current product direction is documented in the [non-binding roadmap](docs/roadmap.md).
 
 ## Privacy and wellness
 
-OZLife includes experiences for personal reflection, journaling, and optional health integration. Product decisions in these areas emphasize user choice and careful handling of personal content. OZLife is a general wellness and routine companion. It is not a medical device and does not replace professional advice, diagnosis, or treatment.
+OZLife includes experiences for personal reflection, journaling, and optional health integration, with an emphasis on user choice and careful handling of personal content.
 
-Read [Privacy and safety](docs/privacy-and-safety.md).
+OZLife is a general wellness and routine companion. It is not a medical device and does not replace professional advice, diagnosis, or treatment. Read [Privacy and safety](docs/privacy-and-safety.md).
+
+## Follow the journey
+
+OZLife is growing toward release. This repository documents the public product experience as it continues to take shape.
+
+Watch the repository to follow development progress, or use [GitHub Issues](../../issues) for product questions.
+
+> Small steps shape the experience, too.
 
 ## Proprietary source and license
 
