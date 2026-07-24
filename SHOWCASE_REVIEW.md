@@ -44,17 +44,34 @@ This file records the approved public-media import for `pythia-said/ozlife-exper
 - Added Follow the journey as a calm closing moment before the proprietary and contact sections.
 - Tightened Built for iOS, Product status, and Privacy and wellness without removing trust, medical, pre-release, or proprietary statements.
 
+### Presentation-image refinement
+
+- Added six landscape presentation derivatives under `assets/presentation/`, all at 1600 × 1000 pixels.
+- Replaced direct portrait screenshot embeds in Mind, Body, Energy, One day with OZLife, and Inside the experience.
+- Made every presentation image clickable, linking to its corresponding complete screenshot in `assets/screenshots/`.
+- Kept the teaser section and its 520-pixel inline preview unchanged.
+- Used only deterministic crops and compositions from the approved public screenshots; no UI, controls, copy, or product state was generated or invented.
+
+| Presentation file | Read-only source | README section |
+| --- | --- | --- |
+| `assets/presentation/daily-flow-feature.png` | `assets/screenshots/01-daily-hub.png` | One day with OZLife |
+| `assets/presentation/focus-feature.png` | `assets/screenshots/02-daily-focus.png` | Inside the experience |
+| `assets/presentation/body-feature.png` | `assets/screenshots/03-guided-body.png` | Body |
+| `assets/presentation/mind-feature.png` | `assets/screenshots/04-mind-games.png` | Mind |
+| `assets/presentation/energy-feature.png` | `assets/screenshots/05-energy-review.png` | Energy |
+| `assets/presentation/garage-feature.png` | `assets/screenshots/06-garage.png` | Inside the experience |
+
 ## Final screenshot usage map
 
-| Asset | Primary README role | Repeated elsewhere in README |
+| Presentation asset | Primary README role | Full screenshot link target |
 | --- | --- | --- |
-| `assets/screenshots/01-daily-hub.png` | One day with OZLife | No |
-| `assets/screenshots/02-daily-focus.png` | Inside the experience | No |
-| `assets/screenshots/03-guided-body.png` | Body | No |
-| `assets/screenshots/04-mind-games.png` | Mind | No |
-| `assets/screenshots/05-energy-review.png` | Energy | No |
-| `assets/screenshots/06-garage.png` | Inside the experience | No |
-| `assets/video/ozlife-teaser.gif` | See OZLife in motion, displayed at 520 px | No |
+| `assets/presentation/daily-flow-feature.png` | One day with OZLife | `assets/screenshots/01-daily-hub.png` |
+| `assets/presentation/focus-feature.png` | Inside the experience | `assets/screenshots/02-daily-focus.png` |
+| `assets/presentation/body-feature.png` | Body | `assets/screenshots/03-guided-body.png` |
+| `assets/presentation/mind-feature.png` | Mind | `assets/screenshots/04-mind-games.png` |
+| `assets/presentation/energy-feature.png` | Energy | `assets/screenshots/05-energy-review.png` |
+| `assets/presentation/garage-feature.png` | Inside the experience | `assets/screenshots/06-garage.png` |
+| `assets/video/ozlife-teaser.gif` | See OZLife in motion, displayed at 520 px | `assets/video/ozlife-teaser.mp4` |
 
 ## Privacy and rights review
 
@@ -80,7 +97,7 @@ The approved social-preview binary was not changed by the final-polish work, and
 ## Manual review recommendations
 
 - Review the final README on GitHub in both light and dark themes.
-- Check the two-column supporting gallery on a narrow mobile viewport.
+- Check the landscape presentation images on a narrow mobile viewport.
 - Confirm the final public wording and visual pacing before merge.
 - Upload `assets/brand/social-preview.png` manually if the GitHub repository setting has not already been configured.
 
@@ -92,6 +109,7 @@ The approved social-preview binary was not changed by the final-polish work, and
 - [x] No `.DS_Store` files are included.
 - [x] `.showcase-import/` was not modified.
 - [x] No approved image, GIF, MP4, or other binary asset was modified, renamed, regenerated, resized, recompressed, or replaced during final polish.
+- [x] All six original screenshots remained byte-identical while new presentation derivatives were created.
 - [x] No source code was added.
 - [x] `LICENSE` was not changed.
 - [x] The production source remains private and the product remains described as pre-release.

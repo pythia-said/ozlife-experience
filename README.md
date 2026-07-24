@@ -36,7 +36,9 @@ OZLife begins with the day already in front of you. Choose a focus, take one app
 Short games and thoughtful practices offer a calmer place to return to. Build focus in moments that fit the day.
 
 <p align="center">
-  <img src="assets/screenshots/04-mind-games.png" alt="OZLife Mind Games hub with a daily pick and focus activities" width="360">
+  <a href="assets/screenshots/04-mind-games.png">
+    <img src="assets/presentation/mind-feature.png" alt="OZLife Mind Games showcase with the Daily Pick and game categories" width="760">
+  </a>
 </p>
 
 ### Body
@@ -46,7 +48,9 @@ Short games and thoughtful practices offer a calmer place to return to. Build fo
 Choose guided sessions that meet your energy where it is. Small, clear movement can still change the shape of a day.
 
 <p align="center">
-  <img src="assets/screenshots/03-guided-body.png" alt="OZLife guided warm-up workout with clear exercise progress" width="360">
+  <a href="assets/screenshots/03-guided-body.png">
+    <img src="assets/presentation/body-feature.png" alt="OZLife guided Body workout showcase with exercise media and instructions" width="760">
+  </a>
 </p>
 
 ### Energy
@@ -56,7 +60,9 @@ Choose guided sessions that meet your energy where it is. Small, clear movement 
 Check in without turning wellbeing into a score. Gentle review makes patterns easier to see and act on.
 
 <p align="center">
-  <img src="assets/screenshots/05-energy-review.png" alt="OZLife weekly Energy Review with patterns and highlights" width="360">
+  <a href="assets/screenshots/05-energy-review.png">
+    <img src="assets/presentation/energy-feature.png" alt="OZLife weekly Energy Review showcase with summary and pattern cards" width="760">
+  </a>
 </p>
 
 The three areas are distinct enough to meet a particular need, and connected enough to support the whole day.
@@ -68,7 +74,9 @@ The three areas are distinct enough to meet a particular need, and connected eno
 The Daily Hub brings that rhythm together in one calm place: today’s focus, an approachable next step, and progress that grows through consistency.
 
 <p align="center">
-  <img src="assets/screenshots/01-daily-hub.png" alt="OZLife Daily Hub bringing together focus, daily actions, and visible progress" width="360">
+  <a href="assets/screenshots/01-daily-hub.png">
+    <img src="assets/presentation/daily-flow-feature.png" alt="OZLife Daily Hub showcase bringing together focus and visible progress" width="760">
+  </a>
 </p>
 
 ## See OZLife in motion
@@ -83,9 +91,19 @@ A short, silent preview of the current pre-release experience, from choosing a f
 
 ## Inside the experience
 
-|  |  |
-| :---: | :---: |
-| <img src="assets/screenshots/02-daily-focus.png" alt="OZLife Energy ritual for choosing what the day needs" width="230"><br>**Choose what your day needs** | <img src="assets/screenshots/06-garage.png" alt="OZLife Garage showing avatar sets and visible progress" width="230"><br>**Turn consistency into visible progress** |
+<p align="center">
+  <a href="assets/screenshots/02-daily-focus.png">
+    <img src="assets/presentation/focus-feature.png" alt="OZLife focus ritual showcase for choosing what the day needs" width="760">
+  </a><br>
+  <strong>Choose what your day needs</strong>
+</p>
+
+<p align="center">
+  <a href="assets/screenshots/06-garage.png">
+    <img src="assets/presentation/garage-feature.png" alt="OZLife Garage showcase with avatar sets and visible progress" width="760">
+  </a><br>
+  <strong>Turn consistency into visible progress</strong>
+</p>
 
 ## Product highlights
 
