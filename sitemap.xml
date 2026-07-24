@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/es/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/"/>
+  </url>
+  <url>
+    <loc>https://pythia-said.github.io/ozlife-experience/it/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pythia-said.github.io/ozlife-experience/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pythia-said.github.io/ozlife-experience/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pythia-said.github.io/ozlife-experience/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pythia-said.github.io/ozlife-experience/it/"/>
+  </url>
+</urlset>

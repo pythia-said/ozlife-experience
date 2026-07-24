@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pythia-said.github.io/ozlife-experience/sitemap.xml
