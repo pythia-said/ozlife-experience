@@ -3,6 +3,8 @@
 
   const page = document.body.dataset.language || "en";
   const supportedLanguages = ["de", "en", "es", "it"];
+  const betaApplicationUrl =
+    "https://github.com/pythia-said/ozlife-experience/issues/new?template=beta-tester.yml";
 
   const languages = {
     de: { short: "DE", name: "Deutsch" },
@@ -153,11 +155,11 @@
           text: "XP, Serien, Meilensteine und Sammlerstücke machen Beständigkeit greifbar, ohne sie in einen Wettkampf zu verwandeln.",
         },
       ],
-      close: "Ein ruhigerer Weg, dranzubleiben.",
+      close: "Sei von Anfang an dabei",
       closeText:
-        "OZLife befindet sich in aktiver Vorabentwicklung. Dieses öffentliche Showcase dokumentiert die Produkterfahrung auf dem Weg zur Veröffentlichung.",
+        "Teste OZLife vor dem offiziellen Start und hilf uns mit deinem Feedback, die App noch besser zu machen.",
+      beta: "Bei der Beta mitmachen",
       vision: "Produktvision lesen",
-      follow: "Entwicklung auf GitHub verfolgen",
       footerNote: "Kleine tägliche Routinen für Mind, Body & Energy.",
       privacy: "Datenschutz & Sicherheit",
       architecture: "Architektur",
@@ -306,11 +308,11 @@
           text: "XP, streaks, milestones, and collectibles make consistency tangible without turning it into a competition.",
         },
       ],
-      close: "A calmer way to keep going.",
+      close: "Be there from the beginning",
       closeText:
-        "OZLife is in active pre-release development. This public showcase documents the product experience as it grows toward release.",
+        "Try OZLife before its official launch and help us make the app even better with your feedback.",
+      beta: "Join the beta",
       vision: "Read the product vision",
-      follow: "Follow development on GitHub",
       footerNote: "Small daily routines for Mind, Body & Energy.",
       privacy: "Privacy & safety",
       architecture: "Architecture",
@@ -459,11 +461,11 @@
           text: "XP, rachas, hitos y coleccionables hacen tangible la constancia sin convertirla en una competición.",
         },
       ],
-      close: "Una forma más serena de continuar.",
+      close: "Forma parte desde el principio",
       closeText:
-        "OZLife está en desarrollo activo. Este showcase público documenta la experiencia del producto mientras avanza hacia su lanzamiento.",
+        "Prueba OZLife antes de su lanzamiento oficial y ayúdanos con tus comentarios a mejorar aún más la app.",
+      beta: "Participar en la beta",
       vision: "Leer la visión del producto",
-      follow: "Seguir el desarrollo en GitHub",
       footerNote: "Pequeñas rutinas diarias para Mind, Body & Energy.",
       privacy: "Privacidad y seguridad",
       architecture: "Arquitectura",
@@ -612,11 +614,11 @@
           text: "XP, serie, traguardi e oggetti da collezione rendono tangibile la costanza senza trasformarla in una competizione.",
         },
       ],
-      close: "Un modo più sereno di continuare.",
+      close: "Partecipa fin dall'inizio",
       closeText:
-        "OZLife è in sviluppo attivo. Questo showcase pubblico documenta l'esperienza del prodotto durante il percorso verso il lancio.",
+        "Prova OZLife prima del lancio ufficiale e aiutaci con il tuo feedback a rendere l'app ancora migliore.",
+      beta: "Partecipa alla beta",
       vision: "Leggi la visione del prodotto",
-      follow: "Segui lo sviluppo su GitHub",
       footerNote: "Piccole routine quotidiane per Mind, Body & Energy.",
       privacy: "Privacy e sicurezza",
       architecture: "Architettura",
@@ -830,8 +832,8 @@
         <h2>${c.close}</h2>
         <p>${c.closeText}</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="./vision/">${c.vision}</a>
-          <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience">${c.follow}</a>
+          <a class="button button-primary" href="${betaApplicationUrl}">${c.beta}</a>
+          <a class="button button-secondary" href="./vision/">${c.vision}</a>
         </div>
       </section>
     </main>
