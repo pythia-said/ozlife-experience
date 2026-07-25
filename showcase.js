@@ -3,8 +3,9 @@
 
   const page = document.body.dataset.language || "en";
   const supportedLanguages = ["de", "en", "es", "it"];
-  const betaApplicationUrl =
-    "https://github.com/pythia-said/ozlife-experience/issues/new?template=beta-tester.yml";
+  const betaEndpoint =
+    "https://ozlife-beta-form.pillendose-byte-65.workers.dev/";
+  const turnstileSiteKey = "0x4AAAAAAD9WSI_ekximyNvl";
 
   const languages = {
     de: { short: "DE", name: "Deutsch" },
@@ -159,6 +160,22 @@
       closeText:
         "Teste OZLife vor dem offiziellen Start und hilf uns mit deinem Feedback, die App noch besser zu machen.",
       beta: "Bei der Beta mitmachen",
+      betaEmail: "E-Mail-Adresse",
+      betaEmailPlaceholder: "du@beispiel.de",
+      betaLanguage: "Bevorzugte Sprache",
+      betaDevice: "iPhone und iOS-Version",
+      betaDevicePlaceholder: "Optional, z. B. iPhone 15 · iOS 18",
+      betaMessage: "Was interessiert dich an OZLife?",
+      betaMessagePlaceholder: "Optional – ein kurzer Satz genügt.",
+      betaConsent:
+        "Ich willige ein, dass meine Angaben zur Bearbeitung meiner Beta-Anfrage verarbeitet werden.",
+      betaPrivacy: "Hinweise zur Datenverarbeitung",
+      betaSending: "Anfrage wird gesendet …",
+      betaSuccess: "Danke! Deine Beta-Anfrage wurde privat übermittelt.",
+      betaError:
+        "Das hat noch nicht geklappt. Bitte prüfe deine Angaben und versuche es erneut.",
+      betaVerification:
+        "Bitte schließe zuerst die Sicherheitsprüfung ab.",
       vision: "Produktvision lesen",
       footerNote: "Kleine tägliche Routinen für Mind, Body & Energy.",
       privacy: "Datenschutz & Sicherheit",
@@ -312,6 +329,21 @@
       closeText:
         "Try OZLife before its official launch and help us make the app even better with your feedback.",
       beta: "Join the beta",
+      betaEmail: "Email address",
+      betaEmailPlaceholder: "you@example.com",
+      betaLanguage: "Preferred language",
+      betaDevice: "iPhone and iOS version",
+      betaDevicePlaceholder: "Optional, e.g. iPhone 15 · iOS 18",
+      betaMessage: "What interests you about OZLife?",
+      betaMessagePlaceholder: "Optional—a short sentence is enough.",
+      betaConsent:
+        "I consent to my information being processed to handle my beta request.",
+      betaPrivacy: "Data processing information",
+      betaSending: "Sending your request …",
+      betaSuccess: "Thank you! Your beta request was submitted privately.",
+      betaError:
+        "That did not work yet. Please check your details and try again.",
+      betaVerification: "Please complete the security check first.",
       vision: "Read the product vision",
       footerNote: "Small daily routines for Mind, Body & Energy.",
       privacy: "Privacy & safety",
@@ -465,6 +497,21 @@
       closeText:
         "Prueba OZLife antes de su lanzamiento oficial y ayúdanos con tus comentarios a mejorar aún más la app.",
       beta: "Participar en la beta",
+      betaEmail: "Correo electrónico",
+      betaEmailPlaceholder: "tu@ejemplo.com",
+      betaLanguage: "Idioma preferido",
+      betaDevice: "iPhone y versión de iOS",
+      betaDevicePlaceholder: "Opcional, p. ej. iPhone 15 · iOS 18",
+      betaMessage: "¿Qué te interesa de OZLife?",
+      betaMessagePlaceholder: "Opcional; basta con una frase breve.",
+      betaConsent:
+        "Acepto que mis datos se procesen para gestionar mi solicitud de acceso a la beta.",
+      betaPrivacy: "Información sobre el tratamiento de datos",
+      betaSending: "Enviando tu solicitud …",
+      betaSuccess: "¡Gracias! Tu solicitud se ha enviado de forma privada.",
+      betaError:
+        "Todavía no ha funcionado. Revisa tus datos e inténtalo de nuevo.",
+      betaVerification: "Completa primero la comprobación de seguridad.",
       vision: "Leer la visión del producto",
       footerNote: "Pequeñas rutinas diarias para Mind, Body & Energy.",
       privacy: "Privacidad y seguridad",
@@ -618,6 +665,21 @@
       closeText:
         "Prova OZLife prima del lancio ufficiale e aiutaci con il tuo feedback a rendere l'app ancora migliore.",
       beta: "Partecipa alla beta",
+      betaEmail: "Indirizzo email",
+      betaEmailPlaceholder: "tu@esempio.it",
+      betaLanguage: "Lingua preferita",
+      betaDevice: "iPhone e versione iOS",
+      betaDevicePlaceholder: "Facoltativo, es. iPhone 15 · iOS 18",
+      betaMessage: "Cosa ti interessa di OZLife?",
+      betaMessagePlaceholder: "Facoltativo: basta una breve frase.",
+      betaConsent:
+        "Acconsento al trattamento dei miei dati per gestire la richiesta di partecipazione alla beta.",
+      betaPrivacy: "Informazioni sul trattamento dei dati",
+      betaSending: "Invio della richiesta …",
+      betaSuccess: "Grazie! La tua richiesta è stata inviata privatamente.",
+      betaError:
+        "Non ha ancora funzionato. Controlla i dati e riprova.",
+      betaVerification: "Completa prima il controllo di sicurezza.",
       vision: "Leggi la visione del prodotto",
       footerNote: "Piccole routine quotidiane per Mind, Body & Energy.",
       privacy: "Privacy e sicurezza",
@@ -639,6 +701,12 @@
           <span>${languages[language].name}</span>
           <strong>${languages[language].short}</strong>
         </a>`,
+    )
+    .join("");
+  const betaLanguageOptions = supportedLanguages
+    .map(
+      (language) =>
+        `<option value="${language}" ${language === page ? "selected" : ""}>${languages[language].name}</option>`,
     )
     .join("");
 
@@ -831,8 +899,42 @@
       <section class="closing shell reveal">
         <h2>${c.close}</h2>
         <p>${c.closeText}</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="${betaApplicationUrl}">${c.beta}</a>
+        <div class="beta-panel">
+          <form class="beta-form" data-beta-form>
+            <div class="beta-form-row">
+              <label>
+                <span>${c.betaEmail}</span>
+                <input type="email" name="email" autocomplete="email" maxlength="254" placeholder="${c.betaEmailPlaceholder}" required>
+              </label>
+              <label>
+                <span>${c.betaLanguage}</span>
+                <select name="language" required>
+                  ${betaLanguageOptions}
+                </select>
+              </label>
+            </div>
+            <label>
+              <span>${c.betaDevice}</span>
+              <input type="text" name="device" autocomplete="off" maxlength="120" placeholder="${c.betaDevicePlaceholder}">
+            </label>
+            <label>
+              <span>${c.betaMessage}</span>
+              <textarea name="message" maxlength="1000" rows="3" placeholder="${c.betaMessagePlaceholder}"></textarea>
+            </label>
+            <label class="beta-consent">
+              <input type="checkbox" name="consent" required>
+              <span>${c.betaConsent} <a href="./privacy/#beta-registration">${c.betaPrivacy}</a></span>
+            </label>
+            <label class="beta-honeypot" aria-hidden="true">
+              Website
+              <input type="text" name="website" autocomplete="off" tabindex="-1">
+            </label>
+            <div class="beta-turnstile" data-beta-turnstile></div>
+            <button class="button button-primary beta-submit" type="submit" data-beta-submit>
+              <span data-beta-submit-label>${c.beta}</span>
+            </button>
+            <p class="beta-status" role="status" aria-live="polite" data-beta-status></p>
+          </form>
           <a class="button button-secondary" href="./vision/">${c.vision}</a>
         </div>
       </section>
@@ -924,6 +1026,114 @@
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) {
       dialog.close();
+    }
+  });
+
+  const betaForm = document.querySelector("[data-beta-form]");
+  const betaSubmit = document.querySelector("[data-beta-submit]");
+  const betaSubmitLabel = document.querySelector("[data-beta-submit-label]");
+  const betaStatus = document.querySelector("[data-beta-status]");
+  const betaTurnstile = document.querySelector("[data-beta-turnstile]");
+  let turnstileToken = "";
+  let turnstileWidgetId;
+
+  const setBetaStatus = (message, type = "") => {
+    betaStatus.textContent = message;
+    betaStatus.className = `beta-status${type ? ` is-${type}` : ""}`;
+  };
+
+  const resetTurnstile = () => {
+    turnstileToken = "";
+    if (window.turnstile && turnstileWidgetId !== undefined) {
+      window.turnstile.reset(turnstileWidgetId);
+    }
+  };
+
+  const renderTurnstile = () => {
+    if (!window.turnstile || turnstileWidgetId !== undefined) {
+      return;
+    }
+
+    turnstileWidgetId = window.turnstile.render(betaTurnstile, {
+      sitekey: turnstileSiteKey,
+      action: "beta-signup",
+      theme: "dark",
+      language: page,
+      callback: (token) => {
+        turnstileToken = token;
+        if (betaStatus.classList.contains("is-error")) {
+          setBetaStatus("");
+        }
+      },
+      "expired-callback": () => {
+        turnstileToken = "";
+      },
+      "error-callback": () => {
+        turnstileToken = "";
+        setBetaStatus(c.betaError, "error");
+      },
+    });
+  };
+
+  const turnstileScript = document.createElement("script");
+  turnstileScript.src =
+    "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+  turnstileScript.async = true;
+  turnstileScript.defer = true;
+  turnstileScript.addEventListener("load", renderTurnstile);
+  turnstileScript.addEventListener("error", () => {
+    setBetaStatus(c.betaError, "error");
+  });
+  document.head.append(turnstileScript);
+
+  betaForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!betaForm.reportValidity()) {
+      return;
+    }
+
+    if (!turnstileToken) {
+      setBetaStatus(c.betaVerification, "error");
+      return;
+    }
+
+    const formData = new FormData(betaForm);
+    betaSubmit.disabled = true;
+    betaSubmitLabel.textContent = c.betaSending;
+    setBetaStatus("");
+
+    try {
+      const response = await fetch(betaEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: formData.get("email"),
+          language: formData.get("language"),
+          device: formData.get("device"),
+          message: formData.get("message"),
+          website: formData.get("website"),
+          consent: formData.get("consent") === "on",
+          turnstileToken,
+        }),
+      });
+
+      const result = await response.json().catch(() => null);
+      if (!response.ok || !result?.ok) {
+        throw new Error("Beta request failed");
+      }
+
+      betaForm.reset();
+      betaForm.elements.language.value = page;
+      setBetaStatus(c.betaSuccess, "success");
+    } catch (_error) {
+      setBetaStatus(c.betaError, "error");
+    } finally {
+      resetTurnstile();
+      betaSubmit.disabled = false;
+      betaSubmitLabel.textContent = c.beta;
     }
   });
 })();
