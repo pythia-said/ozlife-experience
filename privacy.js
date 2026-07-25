@@ -118,6 +118,28 @@
       scopeTitle: "Was diese Seite ist – und was nicht",
       scopeText:
         "Sie beschreibt die öffentliche Produktrichtung. Sie ist keine vollständige Datenschutzerklärung, technische Sicherheitsspezifikation oder rechtliche Garantie.",
+      betaPrivacyEyebrow: "Beta-Anmeldung",
+      betaPrivacyTitle: "Was mit deinen Angaben geschieht.",
+      betaPrivacyIntro:
+        "Die Anmeldung ist freiwillig. Verantwortlich ist Cloddy Web; Fragen, Widerruf oder Löschwünsche kannst du an cloddy@larispostae42.eu richten.",
+      betaPrivacyFacts: [
+        {
+          title: "Welche Angaben",
+          text: "Verarbeitet werden deine E-Mail-Adresse, deine bevorzugte Sprache sowie freiwillige Angaben zu Gerät und Interesse. Bitte übermittle keine Gesundheitsdaten oder anderen sensiblen Informationen.",
+        },
+        {
+          title: "Zweck und Einwilligung",
+          text: "Wir verwenden die Angaben ausschließlich, um deine Beta-Anfrage zu prüfen, dich dazu zu kontaktieren und eine mögliche Teilnahme zu koordinieren. Du kannst deine Einwilligung jederzeit für die Zukunft widerrufen.",
+        },
+        {
+          title: "Technischer Weg",
+          text: "Cloudflare Turnstile schützt das Formular vor Missbrauch. Ein Cloudflare Worker prüft und übermittelt die Anfrage über Resend an ein privates Postfach. Der Worker legt keinen öffentlichen Eintrag und keine eigene Datenbankkopie an.",
+        },
+        {
+          title: "Speicherdauer",
+          text: "Die Anfrage bleibt nur so lange im privaten Postfach, wie sie für Auswahl und Durchführung des Beta-Tests erforderlich ist, und wird danach gelöscht; gesetzliche Aufbewahrungspflichten bleiben unberührt.",
+        },
+      ],
       reportEyebrow: "Sicher melden",
       reportTitle: "Sensible Informationen gehören nicht in öffentliche GitHub Issues.",
       reportText:
@@ -237,6 +259,28 @@
       scopeTitle: "What this page is—and is not",
       scopeText:
         "It describes the public product direction. It is not a complete privacy policy, technical security specification, or legal guarantee.",
+      betaPrivacyEyebrow: "Beta registration",
+      betaPrivacyTitle: "What happens to your information.",
+      betaPrivacyIntro:
+        "Registration is voluntary. Cloddy Web is responsible for processing; questions, withdrawals, or deletion requests can be sent to cloddy@larispostae42.eu.",
+      betaPrivacyFacts: [
+        {
+          title: "Information collected",
+          text: "We process your email address, preferred language, and any optional information about your device and interest. Please do not submit health data or other sensitive information.",
+        },
+        {
+          title: "Purpose and consent",
+          text: "We use the information only to review your beta request, contact you about it, and coordinate possible participation. You may withdraw your consent at any time for the future.",
+        },
+        {
+          title: "Technical processing",
+          text: "Cloudflare Turnstile protects the form from abuse. A Cloudflare Worker checks the request and sends it through Resend to a private mailbox. The Worker creates no public record or separate database copy.",
+        },
+        {
+          title: "Retention",
+          text: "The request remains in the private mailbox only as long as needed to select and run the beta test, then it is deleted; statutory retention obligations remain unaffected.",
+        },
+      ],
       reportEyebrow: "Report safely",
       reportTitle: "Sensitive information does not belong in public GitHub Issues.",
       reportText:
@@ -356,6 +400,28 @@
       scopeTitle: "Qué es esta página y qué no es",
       scopeText:
         "Describe la dirección pública del producto. No es una política de privacidad completa, una especificación técnica de seguridad ni una garantía legal.",
+      betaPrivacyEyebrow: "Registro para la beta",
+      betaPrivacyTitle: "Qué ocurre con tus datos.",
+      betaPrivacyIntro:
+        "El registro es voluntario. Cloddy Web es responsable del tratamiento; puedes enviar preguntas, revocaciones o solicitudes de eliminación a cloddy@larispostae42.eu.",
+      betaPrivacyFacts: [
+        {
+          title: "Datos tratados",
+          text: "Tratamos tu correo electrónico, el idioma preferido y los datos opcionales sobre tu dispositivo e interés. No envíes datos de salud ni otra información sensible.",
+        },
+        {
+          title: "Finalidad y consentimiento",
+          text: "Usamos los datos únicamente para revisar tu solicitud, contactar contigo y coordinar una posible participación. Puedes retirar tu consentimiento en cualquier momento con efectos futuros.",
+        },
+        {
+          title: "Tratamiento técnico",
+          text: "Cloudflare Turnstile protege el formulario frente a abusos. Un Cloudflare Worker comprueba la solicitud y la envía mediante Resend a un buzón privado. El Worker no crea registros públicos ni copias en una base de datos.",
+        },
+        {
+          title: "Conservación",
+          text: "La solicitud permanece en el buzón privado solo mientras sea necesaria para seleccionar y realizar la beta y se elimina después; las obligaciones legales de conservación no se ven afectadas.",
+        },
+      ],
       reportEyebrow: "Informar de forma segura",
       reportTitle: "La información sensible no debe publicarse en GitHub Issues.",
       reportText:
@@ -475,6 +541,28 @@
       scopeTitle: "Che cos'è questa pagina e che cosa non è",
       scopeText:
         "Descrive la direzione pubblica del prodotto. Non è un'informativa completa sulla privacy, una specifica tecnica di sicurezza o una garanzia legale.",
+      betaPrivacyEyebrow: "Iscrizione alla beta",
+      betaPrivacyTitle: "Come vengono trattati i tuoi dati.",
+      betaPrivacyIntro:
+        "L'iscrizione è volontaria. Il titolare del trattamento è Cloddy Web; domande, revoche o richieste di cancellazione possono essere inviate a cloddy@larispostae42.eu.",
+      betaPrivacyFacts: [
+        {
+          title: "Dati trattati",
+          text: "Trattiamo il tuo indirizzo email, la lingua preferita e le informazioni facoltative su dispositivo e interesse. Non inviare dati sanitari o altre informazioni sensibili.",
+        },
+        {
+          title: "Finalità e consenso",
+          text: "Utilizziamo i dati esclusivamente per valutare la richiesta, contattarti e coordinare un'eventuale partecipazione. Puoi revocare il consenso in qualsiasi momento per il futuro.",
+        },
+        {
+          title: "Trattamento tecnico",
+          text: "Cloudflare Turnstile protegge il modulo dagli abusi. Un Cloudflare Worker verifica la richiesta e la invia tramite Resend a una casella privata. Il Worker non crea registri pubblici né copie in un database.",
+        },
+        {
+          title: "Conservazione",
+          text: "La richiesta resta nella casella privata solo per il tempo necessario alla selezione e allo svolgimento della beta, poi viene eliminata; restano salvi gli obblighi legali di conservazione.",
+        },
+      ],
       reportEyebrow: "Segnalare in sicurezza",
       reportTitle: "Le informazioni sensibili non devono essere pubblicate nelle GitHub Issues.",
       reportText:
@@ -670,6 +758,27 @@
               <h3>${c.scopeTitle}</h3>
               <p>${c.scopeText}</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section shell" id="beta-registration">
+        <div class="privacy-beta reveal">
+          <div class="privacy-beta-lead">
+            <p class="eyebrow">${c.betaPrivacyEyebrow}</p>
+            <h2>${c.betaPrivacyTitle}</h2>
+            <p>${c.betaPrivacyIntro.replace("cloddy@larispostae42.eu", '<a href="mailto:cloddy@larispostae42.eu">cloddy@larispostae42.eu</a>')}</p>
+          </div>
+          <div class="privacy-beta-facts">
+            ${c.betaPrivacyFacts
+              .map(
+                (fact) => `
+                  <article>
+                    <h3>${fact.title}</h3>
+                    <p>${fact.text}</p>
+                  </article>`,
+              )
+              .join("")}
           </div>
         </div>
       </section>
