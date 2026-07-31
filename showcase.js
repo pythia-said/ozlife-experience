@@ -771,9 +771,19 @@
             .map(
               (pillar) => `
               <article class="rhythm-item rhythm-item-${pillar.name.toLowerCase()}">
-                <span class="rhythm-number">${pillar.number}</span>
-                <span class="rhythm-dot" aria-hidden="true"></span>
-                <h2>${pillar.name}</h2>
+                <div class="rhythm-topline">
+                  <span class="rhythm-number">${pillar.number}</span>
+                  <span class="rhythm-icon" aria-hidden="true">
+                    ${
+                      pillar.name === "Mind"
+                        ? `<svg viewBox="0 0 32 32" aria-hidden="true"></svg>`
+                        : pillar.name === "Body"
+                          ? `<svg viewBox="0 0 100 100" fill="currentColor"><circle cx="50" cy="16.5" r="7.5"/><path transform="translate(26 14.5) scale(.48 .82)" d="M43 2h14l2 9c6 1 13 3 17 9 4 11 3 27 10 39-3 7-6 4-6 4-4-10-9-20-13-28l-5 22-2 37c-1 6-6 8-10 5l-4-1c-4 3-9 1-10-5l-2-37-5-22c-4 8-9 18-13 28 0 0-3 3-6-4 7-12 6-28 10-39 4-6 11-8 17-9l2-9Z"/></svg>`
+                          : `<svg viewBox="0 0 48 64" fill="currentColor"><path d="M27.84 1.28 7.68 34.56h14.4L16.32 62.72 41.28 24.32H26.4l1.44-23.04Z"/></svg>`
+                    }
+                  </span>
+                </div>
+                <h2><span class="rhythm-title-mark" aria-hidden="true"></span>${pillar.name}</h2>
                 <p>${pillar.text}</p>
               </article>`,
             )

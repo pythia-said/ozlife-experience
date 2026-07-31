@@ -600,8 +600,8 @@ summary {
 
 .rhythm-item {
   position: relative;
-  min-height: 220px;
-  padding: 34px;
+  min-height: 174px;
+  padding: 24px 28px 26px;
 }
 
 .rhythm-item + .rhythm-item {
@@ -615,10 +615,49 @@ summary {
   letter-spacing: 0.12em;
 }
 
+.rhythm-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rhythm-icon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid color-mix(in srgb, var(--rhythm-accent) 72%, white);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 28%, color-mix(in srgb, white 42%, var(--rhythm-accent)), transparent 38%),
+    linear-gradient(145deg, color-mix(in srgb, var(--rhythm-accent) 95%, white), color-mix(in srgb, var(--rhythm-accent) 62%, #273450));
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.3),
+    0 0 26px color-mix(in srgb, var(--rhythm-accent) 40%, transparent);
+}
+
+.rhythm-icon svg {
+  width: 23px;
+  height: 23px;
+}
+
 .rhythm-item h2 {
-  margin: 62px 0 7px;
-  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 22px 0 5px;
+  font-size: clamp(1.55rem, 2.5vw, 2.1rem);
   letter-spacing: -0.04em;
+}
+
+.rhythm-title-mark {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 12px currentColor;
 }
 
 .rhythm-item p {
@@ -628,27 +667,26 @@ summary {
   font-size: 0.93rem;
 }
 
-.rhythm-dot {
-  position: absolute;
-  top: 32px;
-  right: 32px;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: currentColor;
-  box-shadow: 0 0 34px currentColor;
+.rhythm-item-mind {
+  --rhythm-accent: var(--mind);
 }
 
-.rhythm-item-mind {
-  color: var(--mind);
+.rhythm-item-mind .rhythm-icon {
+  border: 0;
+  background: url("assets/brand/daily-pyramid-mind.png") center / 140% no-repeat;
+  box-shadow: none;
+}
+
+.rhythm-item-mind .rhythm-icon svg {
+  display: none;
 }
 
 .rhythm-item-body {
-  color: var(--body);
+  --rhythm-accent: var(--body);
 }
 
 .rhythm-item-energy {
-  color: var(--energy);
+  --rhythm-accent: var(--energy);
 }
 
 .rhythm-item h2,
@@ -4526,7 +4564,7 @@ summary {
   .rhythm-item {
     display: grid;
     min-height: 0;
-    grid-template-columns: 38px minmax(0, 1fr) 10px;
+    grid-template-columns: 38px minmax(0, 1fr);
     grid-template-rows: auto auto;
     column-gap: 12px;
     padding: 22px 20px;
@@ -4538,14 +4576,21 @@ summary {
     padding-top: 4px;
   }
 
-  .rhythm-dot {
-    position: static;
-    width: 9px;
-    height: 9px;
-    grid-column: 3;
-    grid-row: 1;
-    justify-self: end;
-    margin-top: 8px;
+  .rhythm-topline {
+    display: contents;
+  }
+
+  .rhythm-icon {
+    width: 38px;
+    height: 38px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+
+  .rhythm-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   .rhythm-item + .rhythm-item {
@@ -4560,9 +4605,13 @@ summary {
     font-size: 1.45rem;
   }
 
+  .rhythm-title-mark {
+    display: none;
+  }
+
   .rhythm-item p {
     max-width: none;
-    grid-column: 2 / 4;
+    grid-column: 2;
     grid-row: 2;
     margin-top: 5px;
     font-size: 0.86rem;
