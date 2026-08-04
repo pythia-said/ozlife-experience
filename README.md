@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pythia-said.github.io/ozlife-experience/"><strong>Open the multilingual showcase</strong></a><br>
+  <a href="https://live-oz.github.io/ozlife-experience/"><strong>Open the multilingual showcase</strong></a><br>
   <sub>Deutsch · English · Español · Italiano</sub>
 </p>
 
@@ -121,7 +121,7 @@ OZLife makes consistency visible without making personal wellbeing a contest. It
 
 OZLife is a native iOS application written in **Swift** and **SwiftUI**, centered on Daily, Mind, Body, Energy, Diary, Nutrition, and Garage experiences. Progress and personal content are designed primarily around local, on-device use, with optional Apple platform integrations remaining under user control.
 
-Explore the [public architecture overview](https://pythia-said.github.io/ozlife-experience/en/architecture/).
+Explore the [public architecture overview](https://live-oz.github.io/ozlife-experience/en/architecture/).
 
 ## Product status
 

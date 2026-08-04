@@ -711,7 +711,7 @@
           <footer class="architecture-brief-footer">
             <p>${c.briefNote}</p>
             <a
-              href="https://github.com/pythia-said/ozlife-experience/blob/main/docs/architecture.md"
+              href="https://github.com/live-oz/ozlife-experience/blob/main/docs/architecture.md"
             >${c.sourceDoc}</a>
           </footer>
         </div>

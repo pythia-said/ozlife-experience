@@ -748,7 +748,7 @@
           <p class="hero-copy">${c.intro}</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#idea">${c.explore}</a>
-            <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience">${c.repository}</a>
+            <a class="button button-secondary" href="https://github.com/live-oz/ozlife-experience">${c.repository}</a>
           </div>
           <ul class="hero-status" aria-label="Product status">
             ${c.status.map((item) => `<li>${item}</li>`).join("")}

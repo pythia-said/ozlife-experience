@@ -511,7 +511,7 @@
         <div class="hero-actions">
           <a
             class="button button-primary"
-            href="https://github.com/pythia-said/ozlife-experience/issues/new?title=Private%20security%20reporting%20path&amp;body=I%20would%20like%20to%20report%20a%20potential%20security%20concern%20privately.%20I%20have%20not%20included%20sensitive%20or%20technical%20details%20in%20this%20issue."
+            href="https://github.com/live-oz/ozlife-experience/issues/new?title=Private%20security%20reporting%20path&amp;body=I%20would%20like%20to%20report%20a%20potential%20security%20concern%20privately.%20I%20have%20not%20included%20sensitive%20or%20technical%20details%20in%20this%20issue."
           >${c.reportButton}</a>
           <a class="button button-secondary" href="../privacy/">${c.privacy}</a>
         </div>

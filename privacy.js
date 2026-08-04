@@ -791,7 +791,7 @@
         </div>
         <div class="hero-actions">
           <a class="button button-primary" href="../security/">${c.security}</a>
-          <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience/issues">${c.issues}</a>
+          <a class="button button-secondary" href="https://github.com/live-oz/ozlife-experience/issues">${c.issues}</a>
         </div>
       </section>
     </main>

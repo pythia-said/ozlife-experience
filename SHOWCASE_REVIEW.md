@@ -1,6 +1,6 @@
 # Showcase review
 
-This file records the approved media import and the later authentic-visual redesign for `pythia-said/ozlife-experience`.
+This file records the approved media import and the later authentic-visual redesign for `live-oz/ozlife-experience`.
 
 ## Approved import baseline
 

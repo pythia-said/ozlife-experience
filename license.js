@@ -404,7 +404,7 @@
         <div class="hero-actions">
           <a
             class="button button-primary"
-            href="https://github.com/pythia-said/ozlife-experience/issues/new?title=Licensing%20inquiry"
+            href="https://github.com/live-oz/ozlife-experience/issues/new?title=Licensing%20inquiry"
           >${c.inquiryButton}</a>
           <a class="button button-secondary" href="../">${c.showcase}</a>
         </div>

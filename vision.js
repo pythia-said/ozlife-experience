@@ -574,7 +574,7 @@
         <p>${c.promiseText}</p>
         <div class="hero-actions">
           <a class="button button-primary" href="../">${c.showcase}</a>
-          <a class="button button-secondary" href="https://github.com/pythia-said/ozlife-experience">${c.follow}</a>
+          <a class="button button-secondary" href="https://github.com/live-oz/ozlife-experience">${c.follow}</a>
         </div>
       </section>
     </main>

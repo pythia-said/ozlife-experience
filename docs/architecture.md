@@ -2,7 +2,7 @@
 
 [Back to the showcase](../README.md)
 
-[Open the visual architecture overview](https://pythia-said.github.io/ozlife-experience/en/architecture/)
+[Open the visual architecture overview](https://live-oz.github.io/ozlife-experience/en/architecture/)
 
 ## Public technical overview
 
